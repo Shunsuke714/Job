@@ -1,0 +1,2020 @@
+Mono path[0] = 'C:/Users/shunsuke/ml-agents-release_19/apps/MultiGrid-50second_Data/Managed'
+Mono config path = 'C:/Users/shunsuke/ml-agents-release_19/apps/MonoBleedingEdge/etc'
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Users/shunsuke/ml-agents-release_19/apps/MultiGrid-50second_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.246 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+UnloadTime: 5.237800 ms
+Loaded HRTF: default.
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Reward4.468615
+Reward3.286992
+Reward4.626773
+Reward4.079859
+Reward4.830486
+Reward4.760571
+Reward2.921588
+Reward3.401554
+Reward4.17689
+Reward3.199111
+Reward2.578829
+Reward5.965479
+Reward5.935926
+Reward5.57038
+Reward6.176369
+Reward5.009419
+Reward4.4286
+Reward4.395343
+Reward3.887327
+Reward4.779505
+Reward5.766161
+Reward5.035761
+Reward2.866344
+Reward5.990611
+Reward1.90065
+Reward4.560503
+Reward4.315203
+Reward3.861962
+Reward3.334641
+Reward1.622054
+Reward2.283277
+Reward3.338026
+Reward2.253521
+Reward1.897736
+Reward2.291852
+Reward3.749341
+Reward2.740448
+Reward1.935694
+Reward2.076175
+Reward1.875483
+Reward2.624735
+Reward1.765212
+Reward2.467067
+Reward2.022191
+Reward1.301257
+Reward1.432369
+Reward1.663541
+Reward5.366765
+Reward1.999087
+Reward1.672026
+Reward1.44278
+Reward1.250088
+Reward1.279697
+Reward3.7805
+Reward1.979594
+Reward2.832132
+Reward1.691358
+Reward3.28465
+Reward2.825508
+Reward0.8634348
+Reward0.7299953
+Reward1.140324
+Reward1.346821
+Reward1.2795
+Reward1.681417
+Reward1.312006
+Reward1.232885
+Reward1.543263
+Reward3.167401
+Reward1.712562
+Reward3.055232
+Reward1.390322
+Reward0.8559098
+Reward0.926414
+Reward1.278189
+Reward2.135854
+Reward0.9304905
+Reward1.276909
+Reward1.449747
+Reward1.803561
+Reward0.683228
+Reward0.955574
+Reward0.9912877
+Reward1.121569
+Reward2.160042
+Reward1.279736
+Reward1.874626
+Reward0.914772
+Reward1.549799
+Reward2.12808
+Reward0.9702244
+Reward3.808776
+Reward2.744586
+Reward0.9431887
+Reward1.043831
+Reward2.213903
+Reward1.395855
+Reward2.164818
+Reward3.036506
+Reward0.8606315
+Reward3.291716
+Reward0.6753254
+Reward2.383895
+Reward1.086703
+Reward2.343309
+Reward0.6146789
+Reward1.187039
+Reward3.209625
+Reward1.221082
+Reward1.666775
+Reward2.983301
+Reward1.97308
+Reward2.308939
+Reward2.363621
+Reward0.815938
+Reward0.9299188
+Reward1.093256
+Reward3.536324
+Reward3.433843
+Reward1.74086
+Reward2.632383
+Reward1.801286
+Reward1.599446
+Reward4.100566
+Reward4.464357
+Reward2.480311
+Reward1.023091
+Reward1.573667
+Reward3.719677
+Reward2.903193
+Reward1.369485
+Reward0.5874143
+Reward0.6862335
+Reward3.267301
+Reward1.952298
+Reward2.016035
+Reward1.023848
+Reward0.905303
+Reward0.6670122
+Reward1.129692
+Reward2.502346
+Reward0.6351724
+Reward1.044739
+Reward5.14085
+Reward3.983832
+Reward5.001591
+Reward5.073904
+Reward1.648633
+Reward1.058342
+Reward4.178553
+Reward3.611756
+Reward0.7935004
+Reward1.323823
+Reward1.408304
+Reward2.004763
+Reward4.012496
+Reward3.536458
+Reward1.098629
+Reward2.081962
+Reward1.149292
+Reward1.084884
+Reward4.159716
+Reward2.940862
+Reward2.312839
+Reward4.007594
+Reward4.559331
+Reward2.96348
+Reward1.288872
+Reward2.391364
+Reward0.9129624
+Reward1.131574
+Reward1.292356
+Reward3.418519
+Reward1.073404
+Reward1.756505
+Reward4.685199
+Reward1.163349
+Reward3.554871
+Reward0.8747668
+Reward2.442036
+Reward1.817535
+Reward0.8799286
+Reward3.670305
+Reward2.60902
+Reward1.188122
+Reward5.688208
+Reward1.263483
+Reward0.8525438
+Reward3.688736
+Reward3.899037
+Reward0.7610488
+Reward3.197427
+Reward3.512427
+Reward1.175986
+Reward3.09961
+Reward2.418157
+Reward1.012292
+Reward1.669269
+Reward1.400896
+Reward3.384705
+Reward4.763256
+Reward1.263692
+Reward4.864862
+Reward2.998318
+Reward0.6602578
+Reward0.7430382
+Reward4.907929
+Reward1.114778
+Reward5.039517
+Reward0.69629
+Reward2.606592
+Reward4.804555
+Reward1.954988
+Reward3.379045
+Reward3.561139
+Reward4.633798
+Reward4.374142
+Reward1.058128
+Reward1.793359
+Reward1.514589
+Reward3.314642
+Reward2.459963
+Reward0.827281
+Reward2.180829
+Reward0.8741732
+Reward2.640758
+Reward4.612493
+Reward2.400467
+Reward4.743488
+Reward2.556308
+Reward3.9184
+Reward1.742795
+Reward3.060886
+Reward3.58571
+Reward3.719391
+Reward5.651336
+Reward2.984715
+Reward4.653538
+Reward5.925715
+Reward1.510776
+Reward2.310912
+Reward6.098158
+Reward3.283819
+Reward1.717341
+Reward5.36763
+Reward4.420224
+Reward5.956351
+Reward1.050192
+Reward5.776643
+Reward3.033255
+Reward1.540463
+Reward4.359636
+Reward3.937142
+Reward3.32396
+Reward4.027451
+Reward1.501665
+Reward1.88029
+Reward4.712397
+Reward3.868394
+Reward1.675112
+Reward2.777981
+Reward2.021005
+Reward1.051748
+Reward4.123555
+Reward3.444327
+Reward2.696826
+Reward4.329631
+Reward1.673015
+Reward3.170581
+Reward4.192518
+Reward2.271369
+Reward5.241645
+Reward5.544698
+Reward5.784611
+Reward5.23026
+Reward4.529072
+Reward2.907928
+Reward1.897415
+Reward4.634993
+Reward5.58655
+Reward3.745744
+Reward3.693955
+Reward4.05518
+Reward3.239618
+Reward3.979428
+Reward3.213833
+Reward2.641846
+Reward2.895967
+Reward2.503353
+Reward4.1512
+Reward2.561656
+Reward3.618241
+Reward5.952408
+Reward2.249945
+Reward3.189066
+Reward3.485896
+Reward4.712646
+Reward1.939671
+Reward5.669098
+Reward3.285637
+Reward4.037543
+Reward5.334252
+Reward3.645495
+Reward4.231449
+Reward4.404016
+Reward2.820535
+Reward2.86693
+Reward1.980655
+Reward4.429111
+Reward4.017533
+Reward5.310586
+Reward1.557317
+Reward4.930827
+Reward2.924335
+Reward2.522004
+Reward5.435883
+Reward5.007441
+Reward4.936788
+Reward4.096264
+Reward3.337362
+Reward2.727347
+Reward3.046767
+Reward2.860929
+Reward2.983909
+Reward2.421156
+Reward1.676502
+Reward3.40312
+Reward3.35658
+Reward2.122744
+Reward5.357417
+Reward3.622885
+Reward1.523653
+Reward2.615082
+Reward3.722728
+Reward2.79305
+Reward3.749162
+Reward3.221455
+Reward2.134798
+Reward1.914577
+Reward4.433548
+Reward5.065506
+Reward1.898025
+Reward2.37954
+Reward3.954002
+Reward1.473938
+Reward5.235095
+Reward2.315741
+Reward1.74995
+Reward1.076031
+Reward5.310267
+Reward2.193257
+Reward4.031068
+Reward5.352617
+Reward5.330523
+Reward5.558571
+Reward3.960107
+Reward4.639473
+Reward3.765949
+Reward3.224739
+Reward4.156759
+Reward2.791477
+Reward2.639113
+Reward1.635025
+Reward5.024842
+Reward1.404019
+Reward0.883831
+Reward1.155266
+Reward3.063195
+Reward1.876144
+Reward4.023833
+Reward3.673836
+Reward1.975328
+Reward2.425262
+Reward3.589996
+Reward0.9547591
+Reward4.901752
+Reward6.280087
+Reward6.079241
+Reward3.713382
+Reward3.401489
+Reward2.172346
+Reward4.519822
+Reward3.344431
+Reward3.007649
+Reward2.165848
+Reward5.386041
+Reward2.632259
+Reward5.613186
+Reward2.795763
+Reward2.119642
+Reward5.411257
+Reward4.571546
+Reward2.876341
+Reward2.94556
+Reward3.634059
+Reward3.682762
+Reward4.271325
+Reward4.82387
+Reward1.570653
+Reward4.092971
+Reward4.322086
+Reward4.881751
+Reward2.404979
+Reward3.097975
+Reward4.178946
+Reward4.527313
+Reward1.309494
+Reward2.303854
+Reward2.955704
+Reward5.893211
+Reward5.504758
+Reward4.93432
+Reward3.880711
+Reward2.335735
+Reward5.028927
+Reward3.815087
+Reward5.2567
+Reward4.248693
+Reward3.177445
+Reward5.771636
+Reward2.535892
+Reward4.002111
+Reward4.828695
+Reward2.80173
+Reward2.754044
+Reward3.027301
+Reward4.934088
+Reward3.104427
+Reward4.960293
+Reward2.650245
+Reward2.608224
+Reward4.799519
+Reward1.87408
+Reward4.121518
+Reward3.584903
+Reward3.74136
+Reward3.270367
+Reward2.51253
+Reward6.28841
+Reward4.983689
+Reward5.073347
+Reward3.278648
+Reward3.228484
+Reward3.927934
+Reward3.029257
+Reward3.396237
+Reward3.063876
+Reward5.706465
+Reward5.598738
+Reward3.474032
+Reward4.768189
+Reward4.254863
+Reward5.948734
+Reward2.047185
+Reward3.007705
+Reward4.766071
+Reward1.655505
+Reward4.954541
+Reward3.504682
+Reward2.785725
+Reward2.541406
+Reward3.378395
+Reward4.162665
+Reward4.015978
+Reward4.201553
+Reward4.127705
+Reward2.012116
+Reward2.21892
+Reward5.098467
+Reward5.035714
+Reward3.821087
+Reward3.354689
+Reward1.288069
+Reward1.94258
+Reward3.093904
+Reward4.498653
+Reward6.222081
+Reward4.533269
+Reward2.489888
+Reward4.349671
+Reward3.281732
+Reward4.635709
+Reward2.496231
+Reward2.465385
+Reward1.010542
+Reward4.378463
+Reward5.790832
+Reward4.927614
+Reward1.05372
+Reward4.769917
+Reward5.945887
+Reward2.653886
+Reward1.747316
+Reward4.101631
+Reward3.394949
+Reward5.157798
+Reward3.359426
+Reward1.19722
+Reward3.184766
+Reward4.767783
+Reward5.036221
+Reward3.380672
+Reward3.323786
+Reward1.620784
+Reward4.771486
+Reward2.99375
+Reward4.034024
+Reward1.000808
+Reward2.876149
+Reward4.361221
+Reward0.8601093
+Reward3.437435
+Reward1.302915
+Reward5.058124
+Reward4.813976
+Reward4.255906
+Reward3.023857
+Reward2.211492
+Reward6.085581
+Reward3.56623
+Reward5.586052
+Reward3.446148
+Reward4.30408
+Reward4.455366
+Reward1.29806
+Reward2.380427
+Reward0.8864965
+Reward3.148096
+Reward3.806975
+Reward5.480121
+Reward4.15544
+Reward3.132001
+Reward4.811866
+Reward4.176839
+Reward4.214335
+Reward3.174898
+Reward3.517755
+Reward6.167926
+Reward3.778548
+Reward5.682395
+Reward2.286744
+Reward4.154188
+Reward4.519607
+Reward6.134246
+Reward3.681665
+Reward1.897159
+Reward3.45653
+Reward3.923866
+Reward5.886704
+Reward2.947106
+Reward2.599409
+Reward2.839602
+Reward2.998035
+Reward4.433657
+Reward4.440988
+Reward6.153219
+Reward4.294401
+Reward5.970583
+Reward5.124394
+Reward3.294743
+Reward1.342081
+Reward4.278881
+Reward4.759927
+Reward6.293463
+Reward3.755333
+Reward2.605942
+Reward1.412788
+Reward3.021554
+Reward2.741554
+Reward4.09485
+Reward2.443762
+Reward3.370283
+Reward4.348306
+Reward0.9918737
+Reward0.8969979
+Reward2.019823
+Reward3.430803
+Reward5.995028
+Reward6.020708
+Reward3.213473
+Reward4.984345
+Reward4.445149
+Reward2.943188
+Reward3.022775
+Reward3.517164
+Reward3.570837
+Reward4.173825
+Reward5.010974
+Reward0.9413052
+Reward2.795218
+Reward3.86919
+Reward4.546693
+Reward3.629585
+Reward2.517761
+Reward2.112681
+Reward2.701616
+Reward3.515129
+Reward1.274615
+Reward4.39275
+Reward4.35855
+Reward4.417328
+Reward5.382543
+Reward3.266216
+Reward4.356495
+Reward2.416762
+Reward3.881317
+Reward2.28019
+Reward5.757414
+Reward1.148588
+Reward3.275492
+Reward3.592523
+Reward0.9609871
+Reward4.5359
+Reward5.454856
+Reward3.190791
+Reward3.595242
+Reward5.187308
+Reward3.168381
+Reward2.848277
+Reward1.0578
+Reward5.730526
+Reward0.7882323
+Reward3.309458
+Reward3.490983
+Reward5.159156
+Reward2.853681
+Reward3.990597
+Reward2.657749
+Reward3.193154
+Reward3.36978
+Reward3.726156
+Reward3.177737
+Reward4.75486
+Reward3.154973
+Reward2.476866
+Reward2.495531
+Reward4.885371
+Reward3.327131
+Reward3.355883
+Reward1.189169
+Reward4.063034
+Reward4.00408
+Reward3.082417
+Reward4.171662
+Reward4.664185
+Reward4.63849
+Reward3.276765
+Reward4.154672
+Reward4.037392
+Reward3.384562
+Reward1.026291
+Reward1.2791
+Reward5.046528
+Reward4.130285
+Reward2.705474
+Reward2.550693
+Reward4.378577
+Reward4.522196
+Reward2.725871
+Reward5.061788
+Reward4.577431
+Reward2.035457
+Reward1.649004
+Reward4.908503
+Reward4.134164
+Reward3.077628
+Reward2.456224
+Reward5.30505
+Reward3.057585
+Reward3.959903
+Reward3.493584
+Reward5.242451
+Reward4.398383
+Reward4.859766
+Reward3.622815
+Reward3.897165
+Reward4.274578
+Reward2.549505
+Reward3.452848
+Reward1.221169
+Reward4.824392
+Reward3.297781
+Reward2.804664
+Reward3.983978
+Reward3.977688
+Reward5.1908
+Reward3.086608
+Reward2.957122
+Reward4.433554
+Reward1.112939
+Reward4.931683
+Reward1.863338
+Reward3.223256
+Reward1.464064
+Reward0.9640946
+Reward3.201552
+Reward2.461454
+Reward5.747725
+Reward3.764558
+Reward4.282585
+Reward5.94982
+Reward4.853693
+Reward4.755212
+Reward4.492987
+Reward4.444941
+Reward3.171937
+Reward5.699951
+Reward6.129945
+Reward3.611526
+Reward3.659916
+Reward4.77326
+Reward2.113812
+Reward3.797466
+Reward2.041364
+Reward1.738029
+Reward3.12055
+Reward2.670336
+Reward4.587088
+Reward4.278851
+Reward3.062964
+Reward3.89701
+Reward5.420675
+Reward5.343534
+Reward1.87356
+Reward5.341429
+Reward1.474249
+Reward4.223755
+Reward0.8534451
+Reward4.42958
+Reward2.774815
+Reward1.196191
+Reward0.8148661
+Reward1.073874
+Reward5.202692
+Reward3.942026
+Reward4.468761
+Reward1.398981
+Reward5.194839
+Reward3.454818
+Reward1.021044
+Reward5.181495
+Reward3.32009
+Reward4.759164
+Reward3.582118
+Reward4.313478
+Reward3.094313
+Reward3.540615
+Reward1.413983
+Reward2.558529
+Reward4.732655
+Reward3.822173
+Reward2.276834
+Reward0.7845964
+Reward5.585652
+Reward4.51705
+Reward3.494258
+Reward1.599962
+Reward1.247531
+Reward5.340545
+Reward4.28717
+Reward4.548414
+Reward5.051209
+Reward1.344924
+Reward3.606647
+Reward1.941429
+Reward4.824419
+Reward3.224995
+Reward4.624475
+Reward5.41505
+Reward1.932589
+Reward4.625841
+Reward3.773266
+Reward3.490101
+Reward5.326744
+Reward1.11098
+Reward3.189577
+Reward4.306666
+Reward2.97444
+Reward4.362015
+Reward3.516257
+Reward2.365362
+Reward2.573415
+Reward2.609474
+Reward3.859249
+Reward3.795408
+Reward3.622286
+Reward1.85081
+Reward3.738753
+Reward0.8665471
+Reward2.356468
+Reward3.697318
+Reward3.252059
+Reward2.760541
+Reward4.393307
+Reward5.369258
+Reward3.770162
+Reward2.333481
+Reward3.536971
+Reward3.440845
+Reward1.660155
+Reward4.648645
+Reward1.404488
+Reward3.93289
+Reward5.774909
+Reward5.960443
+Reward3.833862
+Reward5.58121
+Reward1.292084
+Reward5.975667
+Reward3.65793
+Reward3.958982
+Reward3.460938
+Reward3.019029
+Reward2.182659
+Reward3.732815
+Reward2.682245
+Reward4.358525
+Reward5.377687
+Reward4.310844
+Reward3.193838
+Reward4.601361
+Reward2.626948
+Reward4.412058
+Reward2.550914
+Reward2.010894
+Reward1.743776
+Reward1.004579
+Reward4.877583
+Reward3.251906
+Reward4.947845
+Reward0.8524776
+Reward4.759642
+Reward3.198009
+Reward4.094469
+Reward4.874317
+Reward6.325739
+Reward4.180892
+Reward5.26157
+Reward0.9704919
+Reward0.9992633
+Reward1.225043
+Reward3.191384
+Reward1.060767
+Reward4.115452
+Reward6.047688
+Reward2.798827
+Reward3.92391
+Reward3.519696
+Reward4.035292
+Reward3.133527
+Reward4.918949
+Reward3.315695
+Reward1.057758
+Reward1.842881
+Reward1.885462
+Reward2.018673
+Reward5.025928
+Reward3.5671
+Reward5.859111
+Reward4.490924
+Reward5.420479
+Reward3.925194
+Reward1.390825
+Reward4.154436
+Reward3.668972
+Reward2.925849
+Reward2.961817
+Reward3.853154
+Reward2.818057
+Reward4.774554
+Reward4.788024
+Reward4.089642
+Reward3.12914
+Reward3.371948
+Reward2.584397
+Reward5.303771
+Reward4.158781
+Reward4.566647
+Reward3.835209
+Reward3.397174
+Reward1.596727
+Reward3.628425
+Reward4.164292
+Reward5.019025
+Reward3.189253
+Reward1.498959
+Reward3.082303
+Reward4.865584
+Reward4.383081
+Reward2.622806
+Reward3.590337
+Reward6.293548
+Reward4.00816
+Reward4.284398
+Reward1.792266
+Reward1.039239
+Reward4.057126
+Reward6.070643
+Reward1.16599
+Reward1.381215
+Reward1.405944
+Reward4.344355
+Reward0.9936247
+Reward4.378249
+Reward5.293949
+Reward1.16164
+Reward5.099565
+Reward2.223547
+Reward5.285981
+Reward4.513433
+Reward3.986392
+Reward3.349014
+Reward2.100121
+Reward4.324868
+Reward5.158384
+Reward2.373552
+Reward5.257809
+Reward4.063539
+Reward4.519389
+Reward4.651458
+Reward5.965134
+Reward5.332612
+Reward4.365034
+Reward4.681851
+Reward4.482335
+Reward1.048121
+Reward4.248668
+Reward3.741414
+Reward0.8134475
+Reward0.8121667
+Reward4.911685
+Reward4.141187
+Reward3.337527
+Reward4.960485
+Reward1.921769
+Reward5.526395
+Reward4.713598
+Reward1.8055
+Reward4.049117
+Reward3.179934
+Reward2.325412
+Reward3.398835
+Reward1.919136
+Reward5.49883
+Reward3.253116
+Reward3.400548
+Reward5.446744
+Reward2.091684
+Reward5.641424
+Reward2.642999
+Reward2.576289
+Reward2.091036
+Reward5.453016
+Reward3.387422
+Reward3.222588
+Reward4.261038
+Reward5.692497
+Reward4.258824
+Reward3.912231
+Reward1.232854
+Reward4.404278
+Reward2.892657
+Reward3.089806
+Reward3.65581
+Reward4.872127
+Reward5.506065
+Reward3.967842
+Reward3.188265
+Reward4.296866
+Reward4.757418
+Reward2.420699
+Reward4.055381
+Reward1.566726
+Reward2.585942
+Reward4.720627
+Reward4.378357
+Reward2.010842
+Reward5.847514
+Reward2.705424
+Reward4.357588
+Reward3.13693
+Reward5.711937
+Reward2.137567
+Reward2.952832
+Reward2.907892
+Reward4.458324
+Reward2.329897
+Reward3.986871
+Reward4.00893
+Reward4.053156
+Reward5.252433
+Reward2.230894
+Reward1.832012
+Reward3.809132
+Reward2.531753
+Reward0.96592
+Reward1.56936
+Reward1.333872
+Reward3.151223
+Reward3.947321
+Reward3.589396
+Reward1.371653
+Reward4.002334
+Reward3.85337
+Reward2.899405
+Reward3.663467
+Reward3.38291
+Reward3.307715
+Reward2.214135
+Reward2.738786
+Reward1.19493
+Reward2.95339
+Reward2.870145
+Reward1.267153
+Reward2.296443
+Reward2.459601
+Reward2.404316
+Reward4.007929
+Reward5.112928
+Reward3.476879
+Reward4.673156
+Reward5.146862
+Reward3.442313
+Reward4.818978
+Reward4.147796
+Reward4.202316
+Reward5.106869
+Reward4.58386
+Reward1.464413
+Reward5.026887
+Reward3.576075
+Reward2.515441
+Reward4.766912
+Reward4.415268
+Reward2.825524
+Reward4.08207
+Reward3.725576
+Reward2.128362
+Reward6.174661
+Reward2.833784
+Reward4.009932
+Reward3.864673
+Reward3.357781
+Reward4.20434
+Reward4.611379
+Reward4.178371
+Reward4.550251
+Reward5.995897
+Reward4.890471
+Reward6.324653
+Reward2.639489
+Reward4.242858
+Reward1.478117
+Reward5.87603
+Reward4.309482
+Reward4.011699
+Reward1.462142
+Reward2.549279
+Reward4.501588
+Reward4.220544
+Reward2.239452
+Reward5.882445
+Reward5.705129
+Reward6.218826
+Reward2.076072
+Reward4.572823
+Reward1.020227
+Reward5.915438
+Reward4.557435
+Reward1.085399
+Reward4.053465
+Reward2.001292
+Reward4.610918
+Reward4.254711
+Reward4.554069
+Reward6.276698
+Reward5.300225
+Reward1.523125
+Reward4.156447
+Reward2.137486
+Reward2.570476
+Reward2.824341
+Reward4.341194
+Reward5.509507
+Reward2.462253
+Reward4.301694
+Reward5.452685
+Reward1.5099
+Reward3.139623
+Reward1.667532
+Reward5.022613
+Reward5.785746
+Reward2.613708
+Reward2.781264
+Reward4.828162
+Reward3.077885
+Reward5.113499
+Reward5.810194
+Reward4.901881
+Reward4.14047
+Reward4.195156
+Reward2.680715
+Reward4.206172
+Reward4.06295
+Reward3.724509
+Reward2.330804
+Reward1.896238
+Reward4.203071
+Reward1.00003
+Reward4.425325
+Reward4.301542
+Reward3.113501
+Reward4.799079
+Reward5.768456
+Reward2.113966
+Reward5.852046
+Reward5.301914
+Reward6.210813
+Reward2.486565
+Reward4.045572
+Reward4.160247
+Reward4.525092
+Reward4.201285
+Reward2.13145
+Reward2.869053
+Reward1.126966
+Reward2.212796
+Reward4.782005
+Reward4.626282
+Reward5.753232
+Reward5.23545
+Reward2.13396
+Reward3.721757
+Reward3.237941
+Reward5.997997
+Reward4.215555
+Reward3.429225
+Reward3.338958
+Reward3.777179
+Reward2.569154
+Reward4.514012
+Reward4.190374
+Reward4.639387
+Reward3.607818
+Reward3.865053
+Reward3.106408
+Reward2.615495
+Reward3.008344
+Reward1.524343
+Reward5.732666
+Reward2.879084
+Reward3.807826
+Reward2.027032
+Reward4.46271
+Reward3.571748
+Reward4.073041
+Reward6.088234
+Reward5.268167
+Reward1.801775
+Reward4.606164
+Reward1.027339
+Reward4.837639
+Reward2.481621
+Reward5.188742
+Reward1.419349
+Reward3.392841
+Reward4.355227
+Reward3.336086
+Reward4.135136
+Reward2.467507
+Reward4.940192
+Reward2.636863
+Reward1.777231
+Reward4.971712
+Reward1.044597
+Reward3.742713
+Reward4.69359
+Reward3.786527
+Reward4.875518
+Reward2.845551
+Reward4.313051
+Reward4.890697
+Reward1.011062
+Reward0.9525909
+Reward4.979593
+Reward2.278393
+Reward3.297495
+Reward1.852095
+Reward4.27876
+Reward3.16426
+Reward3.91093
+Reward2.292452
+Reward1.773429
+Reward4.471003
+Reward5.577093
+Reward4.316086
+Reward4.217371
+Reward4.469089
+Reward1.86022
+Reward3.74203
+Reward1.01829
+Reward3.85376
+Reward3.983194
+Reward4.077317
+Reward1.55115
+Reward3.938625
+Reward4.974424
+Reward1.356144
+Reward1.571624
+Reward6.303941
+Reward2.9203
+Reward1.848129
+Reward4.115214
+Reward3.530924
+Reward5.475353
+Reward4.290367
+Reward1.912526
+Reward3.820787
+Reward3.545551
+Reward4.143596
+Reward4.692795
+Reward2.948065
+Reward5.273784
+Reward5.502948
+Reward3.958506
+Reward5.490503
+Reward4.435001
+Reward1.460921
+Reward1.190583
+Reward4.844772
+Reward4.53496
+Reward4.890292
+Reward2.573642
+Reward1.022085
+Reward4.368046
+Reward4.874098
+Reward3.088372
+Reward4.049362
+Reward4.940064
+Reward5.053037
+Reward2.152472
+Reward2.639574
+Reward4.211145
+Reward4.996092
+Reward4.406712
+Reward4.649515
+Reward4.610042
+Reward3.530276
+Reward4.046861
+Reward1.314976
+Reward2.938367
+Reward0.8803854
+Reward4.214311
+Reward4.678144
+Reward1.803253
+Reward2.313839
+Reward4.100108
+Reward1.703949
+Reward4.773948
+Reward4.826412
+Reward4.248297
+Reward4.588556
+Reward4.676646
+Reward1.64545
+Reward2.311069
+Reward1.505761
+Reward4.700339
+Reward4.205704
+Reward3.931615
+Reward4.706266
+Reward4.832718
+Reward2.648999
+Reward5.401577
+Reward4.697967
+Reward4.845723
+Reward3.603299
+Reward2.797999
+Reward4.537226
+Reward1.790404
+Reward1.526328
+Reward3.498047
+Reward4.680057
+Reward2.982003
+Reward3.427899
+Reward5.639153
+Reward5.19306
+Reward3.378094
+Reward4.605456
+Reward4.489782
+Reward4.283642
+Reward4.17872
+Reward5.176051
+Reward3.730854
+Reward2.024227
+Reward3.922919
+Reward5.096038
+Reward5.133381
+Reward4.810246
+Reward4.365392
+Reward3.897324
+Reward2.863451
+Reward4.162818
+Reward5.10099
+Reward3.989526
+Reward4.803192
+Reward3.211401
+Reward4.189036
+Reward3.793193
+Reward4.472905
+Reward5.410104
+Reward4.360615
+Reward3.868552
+Reward4.948124
+Reward4.236521
+Reward1.255319
+Reward4.413975
+Reward4.173319
+Reward3.541255
+Reward5.622135
+Reward4.29572
+Reward5.897423
+Reward4.464372
+Reward4.359763
+Reward4.775663
+Reward4.204101
+Reward5.249673
+Reward4.941741
+Reward5.364238
+Reward3.94351
+Reward4.232145
+Reward3.226229
+Reward3.953576
+Reward3.848395
+Reward2.402099
+Reward4.403659
+Reward2.193718
+Reward4.404838
+Reward3.088286
+Reward5.220185
+Reward4.537817
+Reward1.139617
+Reward3.628214
+Reward4.241372
+Reward4.808015
+Reward1.981596
+Reward4.648756
+Reward3.472186
+Reward5.072643
+Reward4.223603
+Reward5.315568
+Reward3.863236
+Reward2.878463
+Reward5.258351
+Reward5.016013
+Reward4.501244
+Reward6.066119
+Reward4.310428
+Reward4.438581
+Reward4.511002
+Reward3.935813
+Reward4.638861
+Reward1.669244
+Reward4.622734
+Reward5.440831
+Reward5.492052
+Reward1.881626
+Reward4.50574
+Reward3.665832
+Reward4.374996
+Reward1.624252
+Reward3.705992
+Reward3.926611
+Reward4.680562
+Reward4.246691
+Reward5.063233
+Reward2.660568
+Reward5.575646
+Reward5.170746
+Reward2.400474
+Reward5.004873
+Reward4.613913
+Reward4.525186
+Reward4.09252
+Reward4.320489
+Reward1.279827
+Reward4.875151
+Reward2.013096
+Reward4.628162
+Reward2.331504
+Reward4.258017
+Reward2.490188
+Reward4.115759
+Reward2.07996
+Reward4.1784
+Reward1.631971
+Reward3.433731
+Reward4.565022
+Reward4.035862
+Reward0.9302239
+Reward3.884901
+Reward2.845181
+Reward4.80234
+Reward4.823126
+Reward2.878982
+Reward1.506939
+Reward4.429824
+Reward5.043995
+Reward4.502946
+Reward5.679367
+Reward5.027816
+Reward3.471952
+Reward1.44205
+Reward3.616493
+Reward3.867906
+Reward4.796675
+Reward4.686843
+Reward5.252903
+Reward4.309752
+Reward3.200875
+Reward2.751527
+Reward6.316693
+Reward4.332653
+Reward4.046375
+Reward4.270703
+Reward2.13507
+Reward0.8880358
+Reward4.951598
+Reward2.325113
+Reward4.10777
+Reward4.426531
+Reward4.164796
+Reward4.394498
+Reward4.541368
+Reward3.606081
+Reward4.473881
+Reward4.230032
+Reward4.371847
+Reward5.090601
+Reward6.249017
+Reward1.852254
+Reward1.268786
+Reward1.107622
+Reward4.698412
+Reward2.592219
+Reward4.720536
+Reward5.210032
+Reward4.466012
+Reward1.985358
+Reward3.780978
+Reward3.66045
+Reward4.430899
+Reward4.006734
+Reward5.277185
+Reward4.525226
+Reward5.369435
+Reward4.966038
+Reward5.456173
+Reward2.254551
+Reward3.075331
+Reward4.284605
+Reward3.038248
+Reward4.791999
+Reward2.167407
+Reward4.454149
+Reward4.804263
+Reward3.413432
+Reward4.397213
+Reward5.324912
+Reward2.680209
+Reward4.781747
+Reward4.740795
+Reward1.739375
+Reward6.315548
+Reward2.303786
+Reward3.084612
+Reward3.613891
+Reward4.613051
+Reward1.498948
+Reward3.752395
+Reward4.577189
+Reward2.781766
+Reward2.59368
+Reward3.747634
+Reward1.644321
+Reward4.679047
+Reward3.494832
+Reward4.26238
+Reward5.156536
+Reward4.011048
+Reward4.289439
+Reward2.237026
+Reward3.62967
+Reward1.450301
+Reward3.01709
+Reward5.18187
+Reward3.246701
+Reward4.869121
+Reward1.804998
+Reward1.981561
+Reward4.165163
+Reward4.54901
+Reward4.456457
+Reward4.10432
+Reward3.122039
+Reward4.22038
+Reward4.330178
+Reward2.611212
+Reward4.71865
+Reward2.334743
+Reward2.637403
+Reward2.889094
+Reward3.393865
+Reward2.721481
+Reward4.610948
+Reward4.649992
+Reward5.26116
+Reward4.11488
+Reward5.148511
+Reward2.538381
+Reward0.8455396
+Reward3.235856
+Reward3.815913
+Reward2.939622
+Reward2.585105
+Reward4.787998
+Reward4.729374
+Reward5.372748
+Reward3.477466
+Reward0.9325337
+Reward3.195845
+Reward4.245033
+Reward5.651956
+Reward5.321714
+Reward1.184524
+Reward3.794166
+Reward4.38265
+Reward5.43818
+Reward6.201742
+Reward4.647941
+Reward4.462815
+Reward2.662331
+Reward3.744462
+Reward3.12214
+Reward3.82992
+Reward3.69171
+Reward4.444609
+Reward3.179884
+Reward3.750989
+Reward5.013191
+Reward3.527167
+Reward2.24192
+Reward2.756037
+Reward3.559536
+Reward1.670179
+Reward4.598811
+Reward4.619913
+Reward4.545887
+Reward3.042022
+Reward3.431401
+Reward4.787426
+Reward5.361332
+Reward1.046925
+Reward2.965513
+Reward4.836654
+Reward5.47286
+Reward4.063641
+Reward4.148258
+Reward6.141875
+Reward4.799283
+Reward4.037153
+Reward5.349596
+Reward2.463203
+Reward2.581622
+Reward4.30779
+Reward4.714907
+Reward2.78892
+Reward4.583022
+Reward1.813145
+Reward1.929771
+Reward3.94581
+Reward4.014782
+Reward3.269219
+Reward1.171551
+Reward3.93086
+Reward4.598532
+Reward1.71518
+Reward4.357174
+Reward2.913107
+Reward4.40641
+Reward0.9176974
+Reward3.943961
+Reward1.5172
+Reward3.271053
+Reward4.449207
+Reward4.218206
+Reward3.214641
+Reward4.519045
+Reward4.219718
+Reward4.523478
+Reward4.083541
+Reward2.495587
+Reward4.078556
+Reward4.66032
+Reward2.849641
+Reward1.94852
+Reward5.930213
+Reward2.894729
+Reward1.715486
+Reward2.723623
+Reward4.570947
+Reward4.747538
+Reward5.057967
+Reward4.097017
+Reward3.180287
+Reward4.307957
+Reward1.320244
+Reward3.812843
+Reward4.015707
+Reward4.056038
+Reward4.900144
+Reward1.43104
+Reward4.14022
+Reward1.171205
+Reward4.346676
+Reward2.620977
+Reward3.425205
+Reward4.185826
+Reward1.319674
+Reward3.294089
+Reward4.222489
+Reward4.927237
+Reward4.235777
+Reward3.080125
+Reward5.252813
+Reward3.152447
+Reward1.701104
+Reward4.995911
+Reward4.545611
+Reward2.894135
+Reward4.432042
+Reward4.3254
+Reward2.400795
+Reward5.319865
+Reward1.804949
+Reward4.133028
+Reward4.083488
+Reward4.394185
+Reward4.47714
+Reward4.77116
+Reward4.482812
+Reward4.132935
+Reward5.232579
+Reward2.008426
+Reward5.440139
+Reward4.634798
+Reward3.525282
+Reward4.299479
+Reward6.319826
+Reward1.360646
+Reward3.649914
+Reward3.950356
+Reward3.040548
+Reward4.363141
+Reward2.834161
+Reward4.709547
+Reward1.344359
+Reward2.336926
+Reward2.235305
+Reward3.933891
+Reward1.549109
+Reward4.131274
+Reward2.332107
+Reward3.747053
+Reward4.196802
+Reward1.653772
+Reward3.967481
+Reward1.504721
+Reward1.222728
+Reward4.316518
+Reward2.469086
+Reward1.936641
+Reward3.178579
+Reward3.310133
+Reward4.289221
+Reward5.248737
+Reward4.263649
+Reward3.124938
+Reward3.779632
+Reward3.584556
+Reward4.542559
+Reward5.397779
+Reward1.040384
+Reward1.430399
+Reward4.740215
+Reward4.033001
+Reward2.457334
+Reward4.523671
+Reward4.674054
+Reward2.062775
+Reward5.099489
+Reward2.867654
+Reward2.384491
+Reward2.541368
+Reward2.276967
+Reward4.27448
+Reward2.91895
+Reward6.205488
+Reward3.543974
+Reward3.661406
+Reward3.957392
+Reward4.389386
+Reward4.464203
+Reward5.737206
+Reward5.513492
+Reward2.586035
+Reward4.196466
+Reward5.586226
+Reward4.92886
+Reward4.726727
+Reward1.952257
+Reward3.915264
+Reward2.852304
+Reward2.725512
+Reward2.933544
+Reward3.526431
+Reward2.373704
+Reward4.875593
+Reward4.0923
+Reward4.905603
+Reward3.172278
+Reward3.061801
+Reward4.407858
+Reward3.797289
+Reward4.090178
+Reward4.432966
+Reward4.818158
+Reward4.334778
+Reward4.358781
+Reward5.180708
+Reward3.406307
+Reward4.371107
+Reward2.955199
+Reward4.432871
+Unable to save timers to file C:/Users/shunsuke/ml-agents-release_19/apps/MultiGrid-50second_Data\ML-Agents\Timers\GridUpdate_timers.json
+Setting up 4 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 5228997 frames, [2.0 KB-4.0 KB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 282 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.1 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 90
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 5229000 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 5.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 5229000 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.6 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 3
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 5228999 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 65.6 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 5229000 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 7.2 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 5229000 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.3 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 5228999 frames, [256.0 KB-0.5 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 489.8 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 5229000 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.0 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 5229000 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B

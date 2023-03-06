@@ -1,0 +1,29 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 45375,
+                "file_path": "results\\Grid-0.1-1\\Toio\\Toio-45375.onnx",
+                "reward": 0.20016121864318848,
+                "creation_time": 1676010666.1782548,
+                "auxillary_file_paths": [
+                    "results\\Grid-0.1-1\\Toio\\Toio-45375.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 45375,
+            "file_path": "results\\Grid-0.1-1\\Toio.onnx",
+            "reward": 0.20016121864318848,
+            "creation_time": 1676010666.1782548,
+            "auxillary_file_paths": [
+                "results\\Grid-0.1-1\\Toio\\Toio-45375.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499622,
+                "file_path": "results\\ToioCollision5-2\\Toio\\Toio-499622.onnx",
+                "reward": 1.2754544886675747,
+                "creation_time": 1666485972.3812666,
+                "auxillary_file_paths": [
+                    "results\\ToioCollision5-2\\Toio\\Toio-499622.pt"
+                ]
+            },
+            {
+                "steps": 898673,
+                "file_path": "results\\ToioCollision5-2\\Toio\\Toio-898673.onnx",
+                "reward": 1.328421009214301,
+                "creation_time": 1666487269.6223402,
+                "auxillary_file_paths": [
+                    "results\\ToioCollision5-2\\Toio\\Toio-898673.pt"
+                ]
+            },
+            {
+                "steps": 999983,
+                "file_path": "results\\ToioCollision5-2\\Toio\\Toio-999983.onnx",
+                "reward": 1.2619999567667644,
+                "creation_time": 1666510879.8003125,
+                "auxillary_file_paths": [
+                    "results\\ToioCollision5-2\\Toio\\Toio-999983.pt"
+                ]
+            },
+            {
+                "steps": 1000017,
+                "file_path": "results\\ToioCollision5-2\\Toio\\Toio-1000017.onnx",
+                "reward": 1.2737499624490738,
+                "creation_time": 1666510879.8779671,
+                "auxillary_file_paths": [
+                    "results\\ToioCollision5-2\\Toio\\Toio-1000017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000017,
+            "file_path": "results\\ToioCollision5-2\\Toio.onnx",
+            "reward": 1.2737499624490738,
+            "creation_time": 1666510879.8779671,
+            "auxillary_file_paths": [
+                "results\\ToioCollision5-2\\Toio\\Toio-1000017.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

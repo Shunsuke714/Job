@@ -1,0 +1,38 @@
+{
+    "Hackathon": {
+        "checkpoints": [
+            {
+                "steps": 499966,
+                "file_path": "results\\hackathon-3\\Hackathon\\Hackathon-499966.onnx",
+                "reward": 1.141500065724055,
+                "creation_time": 1677551606.962443,
+                "auxillary_file_paths": [
+                    "results\\hackathon-3\\Hackathon\\Hackathon-499966.pt"
+                ]
+            },
+            {
+                "steps": 786237,
+                "file_path": "results\\hackathon-3\\Hackathon\\Hackathon-786237.onnx",
+                "reward": null,
+                "creation_time": 1677552525.4620404,
+                "auxillary_file_paths": [
+                    "results\\hackathon-3\\Hackathon\\Hackathon-786237.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 786237,
+            "file_path": "results\\hackathon-3\\Hackathon.onnx",
+            "reward": null,
+            "creation_time": 1677552525.4620404,
+            "auxillary_file_paths": [
+                "results\\hackathon-3\\Hackathon\\Hackathon-786237.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

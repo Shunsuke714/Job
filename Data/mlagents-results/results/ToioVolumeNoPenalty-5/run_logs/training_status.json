@@ -1,0 +1,65 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 1499978,
+                "file_path": "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-1499978.onnx",
+                "reward": 1.4018181562423706,
+                "creation_time": 1666087203.9231136,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-1499978.pt"
+                ]
+            },
+            {
+                "steps": 1999993,
+                "file_path": "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-1999993.onnx",
+                "reward": 1.4005405097394377,
+                "creation_time": 1666088854.2833123,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-1999993.pt"
+                ]
+            },
+            {
+                "steps": 2499995,
+                "file_path": "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-2499995.onnx",
+                "reward": 1.4055356915507997,
+                "creation_time": 1666090524.4924016,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-2499995.pt"
+                ]
+            },
+            {
+                "steps": 2999999,
+                "file_path": "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-2999999.onnx",
+                "reward": 1.392142849309104,
+                "creation_time": 1666092169.9259484,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-2999999.pt"
+                ]
+            },
+            {
+                "steps": 3000027,
+                "file_path": "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-3000027.onnx",
+                "reward": 1.3919999917348227,
+                "creation_time": 1666092169.9802344,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-3000027.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3000027,
+            "file_path": "results\\ToioVolumeNoPenalty-5\\Toio.onnx",
+            "reward": 1.3919999917348227,
+            "creation_time": 1666092169.9802344,
+            "auxillary_file_paths": [
+                "results\\ToioVolumeNoPenalty-5\\Toio\\Toio-3000027.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

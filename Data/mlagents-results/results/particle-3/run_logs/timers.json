@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1677835182",
+        "python_version": "3.7.13 (default, Mar 28 2022, 08:03:21) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\shunsuke\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn config/Toio.yaml --run-id=particle-3 --env=apps/Particle50 --time-scale=1 --num-envs=2 --no-graphics",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1677835184"
+    },
+    "total": 1.2947125,
+    "count": 1,
+    "self": 0.02161499999999994,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11326760000000002,
+            "count": 1,
+            "self": 0.11326760000000002
+        },
+        "TrainerController.start_learning": {
+            "total": 1.1598299,
+            "count": 1,
+            "self": 0.00039600000000006297,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 1.1594213000000002,
+                    "count": 1,
+                    "self": 1.1594213000000002
+                },
+                "trainer_threads": {
+                    "total": 1.000000000139778e-06,
+                    "count": 1,
+                    "self": 1.000000000139778e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.1599999999667432e-05,
+                    "count": 1,
+                    "self": 1.1599999999667432e-05
+                }
+            }
+        }
+    }
+}

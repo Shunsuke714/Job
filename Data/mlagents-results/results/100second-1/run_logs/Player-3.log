@@ -1,0 +1,550 @@
+Mono path[0] = 'C:/Users/shunsuke/ml-agents-release_19/apps/MultiGrid-100second_Data/Managed'
+Mono config path = 'C:/Users/shunsuke/ml-agents-release_19/apps/MonoBleedingEdge/etc'
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Users/shunsuke/ml-agents-release_19/apps/MultiGrid-100second_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.192 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+UnloadTime: 6.934200 ms
+Loaded HRTF: default.
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Reward5.120101
+Reward5.378512
+Reward4.76458
+Reward5.486804
+Reward3.804363
+Reward4.891329
+Reward3.916687
+Reward2.320787
+Reward2.746133
+Reward3.394894
+Reward2.302324
+Reward3.493491
+Reward5.263075
+Reward3.057781
+Reward6.290493
+Reward5.814428
+Reward3.53363
+Reward4.083371
+Reward4.378214
+Reward3.956037
+Reward3.813237
+Reward2.833377
+Reward5.074254
+Reward3.680623
+Reward4.195342
+Reward5.424953
+Reward4.072967
+Reward2.836394
+Reward3.979985
+Reward5.235604
+Reward4.090014
+Reward2.813949
+Reward2.509987
+Reward4.76337
+Reward5.343283
+Reward4.627335
+Reward5.418556
+Reward2.488567
+Reward2.673845
+Reward5.341208
+Reward3.805194
+Reward3.465938
+Reward2.489019
+Reward3.157516
+Reward4.737967
+Reward5.339009
+Reward5.28139
+Reward3.074169
+Reward2.876667
+Reward3.089502
+Reward3.02567
+Reward2.973217
+Reward3.487363
+Reward3.880031
+Reward2.97049
+Reward3.738868
+Reward3.945747
+Reward3.172247
+Reward4.42204
+Reward3.961704
+Reward4.309483
+Reward3.505605
+Reward5.541418
+Reward3.730468
+Reward2.510221
+Reward1.89061
+Reward3.158987
+Reward3.516147
+Reward2.720058
+Reward3.936621
+Reward4.992595
+Reward1.719566
+Reward5.141147
+Reward1.825942
+Reward3.764258
+Reward2.601204
+Reward3.130148
+Reward4.48385
+Reward3.168088
+Reward2.30455
+Reward3.71077
+Reward5.188057
+Reward4.147387
+Reward4.324937
+Reward3.947725
+Reward2.192179
+Reward3.265832
+Reward2.721612
+Reward5.302584
+Reward1.510442
+Reward3.914733
+Reward4.561356
+Reward4.221222
+Reward1.284229
+Reward2.842042
+Reward5.140238
+Reward3.073745
+Reward3.304021
+Reward5.786767
+Reward3.110257
+Reward3.220946
+Reward1.453543
+Reward3.749244
+Reward3.809448
+Reward6.282237
+Reward3.217438
+Reward3.636698
+Reward1.37519
+Reward5.467736
+Reward1.483519
+Reward5.240388
+Reward1.773632
+Reward5.589677
+Reward4.997169
+Reward3.336442
+Reward4.548656
+Reward2.74002
+Reward3.728743
+Reward3.417666
+Reward4.696649
+Reward3.370078
+Reward3.699534
+Reward1.954392
+Reward3.889026
+Reward4.522665
+Reward4.016884
+Reward3.627348
+Reward2.70918
+Reward3.728218
+Reward2.196257
+Reward3.208647
+Reward2.658642
+Reward3.68551
+Reward2.092158
+Reward4.390316
+Reward1.606206
+Reward3.176499
+Reward3.043122
+Reward4.533277
+Reward3.709506
+Reward4.979342
+Reward2.198336
+Reward4.573551
+Reward2.925003
+Reward2.845046
+Reward2.831402
+Reward2.10068
+Reward5.489859
+Reward6.031818
+Reward3.467253
+Reward5.393641
+Reward4.622024
+Reward3.08548
+Reward5.393781
+Reward4.393844
+Reward3.441599
+Reward5.379843
+Reward6.154883
+Reward5.7528
+Reward2.562264
+Reward4.966281
+Reward4.370233
+Reward5.36631
+Reward4.63568
+Reward5.081932
+Reward3.479517
+Reward4.831771
+Reward4.672795
+Reward2.908651
+Reward5.367929
+Reward3.486081
+Reward4.352993
+Reward2.055192
+Reward3.576113
+Reward2.545424
+Reward2.749628
+Reward5.697361
+Reward2.625616
+Reward3.633353
+Reward3.817538
+Reward5.117589
+Reward1.779208
+Reward2.501172
+Reward3.532852
+Reward2.802097
+Reward4.962107
+Reward3.776103
+Reward4.798005
+Reward4.693213
+Reward3.943978
+Reward6.243954
+Reward2.970016
+Reward3.025862
+Reward3.430203
+Reward4.78703
+Reward3.254484
+Reward2.816889
+Reward2.755683
+Reward1.743581
+Reward1.687315
+Reward2.636683
+Reward2.822565
+Reward3.595351
+Reward4.103039
+Reward1.785175
+Reward3.454431
+Reward3.184908
+Reward2.916352
+Reward3.670442
+Reward3.9601
+Reward3.231836
+Reward3.561116
+Reward3.584216
+Reward3.917942
+Reward2.786895
+Reward3.701338
+Reward4.824832
+Reward1.554527
+Reward3.547144
+Reward1.417185
+Reward2.969812
+Reward2.937812
+Reward2.976465
+Reward2.69671
+Reward2.759305
+Reward2.527215
+Reward3.952573
+Reward3.366846
+Reward3.279881
+Reward2.682891
+Reward2.186689
+Reward3.545635
+Reward1.615944
+Reward3.356859
+Reward5.147768
+Reward2.726299
+Reward1.934902
+Reward5.022256
+Reward2.338229
+Reward2.607058
+Reward2.767255
+Reward2.326313
+Reward2.801315
+Reward3.572831
+Reward3.811116
+Reward3.160368
+Reward3.249013
+Reward2.688232
+Reward3.844067
+Reward2.397715
+Reward3.416401
+Reward3.674409
+Reward1.255056
+Reward3.691639
+Reward2.772864
+Reward3.252142
+Reward3.397937
+Reward2.955549
+Reward4.15425
+Reward2.047597
+Reward2.60852
+Reward4.261086
+Reward2.915236
+Reward5.852592
+Reward4.623276
+Reward4.067791
+Reward2.46147
+Reward3.21772
+Reward3.675309
+Reward3.462565
+Reward3.62967
+Reward4.532104
+Reward3.877012
+Reward2.95768
+Setting up 4 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 1646414 frames, [2.0 KB-4.0 KB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 285 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 51.1 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 72
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1646417 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 4.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1646417 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.6 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 3
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 1646416 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 65.6 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1646417 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 7.2 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 1646417 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.3 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1646416 frames, [256.0 KB-0.5 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 489.8 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 1646417 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.0 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1646417 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B

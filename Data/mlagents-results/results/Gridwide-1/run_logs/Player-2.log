@@ -1,0 +1,1919 @@
+Mono path[0] = 'C:/Users/shunsuke/ml-agents-release_19/apps/Gridwide_Data/Managed'
+Mono config path = 'C:/Users/shunsuke/ml-agents-release_19/apps/MonoBleedingEdge/etc'
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Users/shunsuke/ml-agents-release_19/apps/Gridwide_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.210 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+UnloadTime: 6.185100 ms
+Loaded HRTF: default.
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+4.91953
+5.246183
+3.976132
+3.963587
+6.337327
+3.668571
+4.323192
+4.307204
+5.249981
+3.861124
+3.486999
+3.79857
+5.405985
+4.856816
+3.684631
+3.481764
+3.451662
+6.244753
+6.249386
+3.544648
+4.291561
+3.485185
+3.972642
+4.790973
+4.53964
+6.247737
+5.322371
+4.033882
+3.009351
+3.809288
+3.722284
+4.56302
+4.543994
+4.246362
+4.858703
+3.40098
+4.793177
+4.883185
+3.955508
+6.321918
+3.713945
+4.610375
+4.00958
+4.387472
+4.990163
+3.165738
+5.349456
+4.51984
+4.744058
+4.692223
+4.298006
+4.318925
+4.264392
+5.869993
+5.857726
+3.964658
+4.519182
+5.091235
+3.667887
+4.324603
+5.378191
+3.316296
+3.342833
+3.397084
+4.370976
+4.242226
+4.028083
+3.900067
+4.404944
+3.810051
+4.081316
+4.823924
+3.23482
+3.100278
+4.467512
+4.261974
+4.237396
+4.61107
+3.121579
+4.738027
+3.594314
+3.71059
+2.888364
+3.933839
+5.781964
+5.42346
+2.977166
+5.096045
+2.87032
+3.323467
+3.802702
+3.836498
+3.939435
+3.763443
+3.892016
+3.803058
+3.592495
+3.803988
+5.212094
+4.029369
+4.171374
+5.040742
+3.939023
+4.720613
+3.932982
+2.51653
+3.500103
+4.472094
+3.396811
+3.951849
+4.11451
+4.005827
+4.765438
+2.587317
+5.777533
+5.996528
+4.120392
+3.160807
+3.151368
+4.72689
+4.954279
+5.431088
+4.445967
+3.931299
+5.997725
+3.474671
+3.352486
+3.383928
+3.310455
+5.779049
+5.066765
+3.281372
+3.00256
+4.76675
+3.304896
+4.116446
+4.535247
+5.789806
+4.087213
+5.96359
+4.772566
+5.282228
+5.272304
+5.217831
+3.776428
+3.523193
+4.052228
+3.914517
+2.518733
+3.743031
+3.609975
+3.101887
+5.873857
+3.247084
+5.5575
+4.613369
+4.857575
+5.990153
+2.981216
+4.944689
+5.256611
+5.104656
+3.985367
+3.435433
+5.330595
+5.779179
+3.508098
+4.953309
+4.901891
+5.76398
+4.305416
+2.893852
+4.130877
+3.298053
+4.265615
+4.693439
+4.223652
+3.845602
+3.121448
+4.595264
+4.554127
+3.013833
+3.57815
+4.180954
+4.281173
+4.375278
+4.98984
+4.823588
+6.235793
+3.114884
+4.32353
+4.249087
+3.21589
+5.245551
+3.989918
+5.491886
+5.216608
+3.464277
+4.748804
+3.442577
+4.036545
+4.735549
+5.254235
+4.242242
+4.644826
+4.940387
+5.128493
+3.403844
+5.146101
+3.334103
+4.742929
+5.002538
+6.324843
+2.837496
+4.256615
+4.541743
+3.326713
+4.72627
+4.475515
+3.498685
+5.361423
+3.728969
+2.951069
+4.444633
+4.247542
+2.943297
+2.728032
+3.223274
+4.398784
+3.151842
+3.242594
+4.081391
+4.863882
+3.29199
+6.273703
+3.771033
+5.132539
+6.265821
+3.985271
+5.131401
+2.5725
+2.866401
+3.635461
+3.636592
+4.466343
+4.381667
+5.789107
+4.944235
+4.231115
+5.733626
+3.770682
+3.001019
+3.658705
+3.616709
+4.154536
+3.047617
+6.223947
+2.825707
+4.628217
+2.452564
+4.210787
+2.756342
+4.108902
+4.528667
+3.939885
+3.34652
+3.085396
+6.081257
+3.057587
+4.25076
+4.316489
+5.652707
+2.954043
+6.000452
+5.562128
+3.873681
+5.898018
+6.012833
+3.145316
+4.669851
+3.843172
+4.42146
+5.281956
+5.036212
+4.081636
+4.91764
+2.855041
+4.373373
+5.137206
+4.89212
+3.493795
+3.371409
+2.754828
+5.999456
+4.166364
+4.675987
+3.569685
+2.817095
+5.28795
+3.666396
+5.374399
+4.504591
+4.799696
+4.111691
+5.169579
+3.501997
+4.821786
+4.880854
+4.906858
+3.814105
+4.894192
+5.889053
+5.618098
+6.181153
+3.875664
+5.375515
+5.240032
+6.041983
+5.023311
+3.209023
+4.572267
+3.013176
+3.493719
+4.383662
+3.886904
+2.942027
+2.826472
+4.784384
+5.643641
+4.491289
+5.058248
+5.25542
+3.269388
+4.388989
+5.19407
+4.643184
+3.63871
+4.268256
+3.398895
+2.896286
+5.582973
+3.933644
+5.676648
+3.093807
+3.324683
+2.939767
+3.067515
+3.028552
+5.715886
+4.683502
+5.853
+5.255877
+4.088698
+3.132182
+4.39941
+4.586438
+4.54634
+6.233234
+3.10903
+2.915073
+5.183452
+4.501973
+4.424679
+3.305272
+5.84137
+4.699261
+6.162704
+5.195268
+3.539593
+4.876597
+5.871793
+3.577321
+5.494536
+4.047334
+4.742299
+5.430263
+4.114359
+2.702567
+3.297585
+3.696652
+3.614023
+3.382017
+3.920252
+5.065007
+5.031813
+3.260469
+3.083314
+3.480108
+3.580254
+5.270864
+3.390234
+4.491566
+2.910167
+3.436739
+4.526043
+5.78524
+5.425206
+5.704086
+4.664733
+4.442397
+2.766315
+3.13459
+4.958209
+3.756984
+5.021947
+2.90904
+5.668554
+4.759894
+2.710293
+4.325156
+3.12399
+3.994406
+3.742156
+3.013418
+4.050093
+3.341124
+3.18111
+4.801084
+3.239785
+3.856766
+4.728346
+5.046027
+2.5921
+2.918239
+4.637069
+5.208617
+2.660666
+3.33699
+3.663182
+3.868862
+4.876547
+4.064287
+3.238042
+5.626272
+6.255095
+4.933278
+3.467336
+3.477133
+3.493291
+5.287967
+4.594999
+3.134962
+5.941646
+3.26805
+3.313021
+3.406279
+6.010116
+4.619946
+5.454368
+4.651445
+3.762175
+5.169439
+5.272421
+4.86309
+3.215949
+5.824619
+4.636531
+5.86599
+2.661199
+5.518784
+4.12308
+3.264166
+4.49648
+3.33921
+3.496216
+5.918429
+3.31194
+4.277617
+4.767004
+5.179332
+5.221384
+4.796797
+3.720203
+2.689441
+3.047351
+5.358379
+5.304351
+3.23343
+2.845714
+3.571183
+3.617047
+3.039489
+4.465298
+5.758335
+2.815828
+4.966966
+3.36447
+4.995296
+3.803763
+4.575799
+3.037673
+3.47694
+6.300475
+4.231614
+4.353341
+3.920787
+4.988537
+6.246818
+3.486475
+2.801609
+3.905125
+3.081316
+3.387087
+5.479839
+4.114621
+2.848485
+3.03525
+3.984859
+5.175588
+4.345839
+4.4519
+4.304906
+2.356899
+4.01599
+3.509936
+4.199967
+5.586534
+5.524605
+3.365673
+4.043915
+4.964066
+4.728815
+3.115439
+3.475792
+4.596509
+2.923731
+2.911015
+5.047463
+4.426372
+4.121274
+3.522595
+4.87436
+4.411647
+4.685107
+2.960009
+5.064404
+5.737197
+3.407472
+4.48933
+3.587028
+3.026575
+5.708776
+4.433876
+2.978784
+2.58777
+3.764977
+4.927572
+4.043612
+3.44482
+4.771323
+3.874729
+4.554615
+2.889099
+4.606359
+3.350959
+4.389152
+5.554103
+3.823736
+3.063564
+4.918081
+2.983861
+4.505392
+2.882448
+4.470901
+6.332685
+3.628325
+4.898992
+2.237783
+4.634364
+4.950895
+3.537007
+4.206813
+2.754307
+3.417688
+2.695569
+4.507846
+3.605605
+3.515079
+2.602944
+3.44464
+5.104818
+5.838302
+4.764049
+3.926487
+3.002797
+4.879085
+5.318686
+4.986844
+2.787528
+3.762767
+4.710876
+6.170437
+5.492321
+4.623678
+4.873769
+3.962879
+3.319523
+3.74124
+3.73107
+2.244013
+3.806092
+6.201964
+2.377582
+5.43112
+3.444338
+3.073908
+3.808683
+4.731433
+4.166659
+2.505683
+3.98833
+3.907671
+2.015928
+3.32428
+2.986393
+3.785693
+3.026643
+3.860781
+3.723922
+2.931823
+5.330206
+4.695436
+3.490228
+2.619848
+4.303852
+5.058836
+4.63806
+2.806703
+4.896687
+2.695123
+3.623773
+4.89739
+3.26721
+3.474893
+4.721232
+4.684263
+4.426501
+3.472421
+2.302913
+2.345095
+3.344084
+3.124945
+3.039505
+5.127928
+4.136309
+3.053476
+3.744445
+4.261343
+3.54554
+4.613528
+4.919008
+4.134176
+3.097315
+3.282985
+3.795448
+4.111661
+3.116438
+3.040727
+4.593801
+3.704509
+3.661031
+3.076592
+5.204252
+3.971452
+6.272658
+4.923473
+3.917427
+3.96095
+3.602684
+3.912392
+5.068159
+5.421793
+3.969603
+2.913395
+2.928589
+3.141997
+5.497015
+2.172749
+3.349936
+5.035954
+3.197014
+2.535186
+6.212785
+4.752415
+3.77413
+5.078727
+3.731476
+3.507658
+2.533985
+4.711418
+3.695251
+4.118857
+5.705578
+3.2386
+3.841663
+5.062863
+4.870795
+3.979501
+2.751703
+4.963155
+6.254857
+3.579229
+4.775979
+3.770164
+5.326008
+6.182868
+2.92329
+3.09359
+3.49134
+4.573103
+2.898479
+2.659791
+4.042644
+3.15299
+4.986544
+3.210594
+3.238642
+3.990777
+2.598634
+2.879097
+2.533929
+3.761389
+3.329814
+3.605582
+5.073949
+5.050636
+4.513124
+3.567338
+3.793091
+4.505096
+4.539859
+3.462827
+2.393026
+3.436929
+4.753779
+4.269506
+3.317701
+2.456388
+4.023251
+4.545304
+4.743358
+3.582915
+4.709533
+3.019635
+3.422232
+3.842252
+4.812353
+2.070108
+4.253715
+5.375463
+4.830441
+4.434819
+3.315591
+5.156133
+2.551004
+3.501667
+3.414193
+2.964057
+2.982114
+4.047688
+4.212165
+2.790865
+4.905137
+4.065073
+4.867639
+3.402193
+4.880137
+4.850944
+4.359136
+4.032801
+4.557869
+5.127404
+2.972497
+3.312172
+6.084347
+5.455639
+3.174175
+6.115131
+3.897483
+2.685363
+3.465266
+4.685196
+4.776898
+4.671907
+4.946204
+3.761983
+4.829368
+4.04256
+2.68633
+4.290448
+2.619733
+5.420863
+6.069437
+4.068399
+6.302298
+4.253678
+2.778417
+3.829327
+3.447519
+4.622123
+5.149689
+3.927072
+2.554297
+2.70031
+4.491707
+4.446591
+2.59286
+4.839905
+4.947364
+3.048512
+3.645582
+3.577884
+4.14256
+5.778804
+3.907617
+3.115906
+3.362174
+2.232614
+4.860579
+5.638783
+5.550036
+3.132626
+3.42403
+4.186676
+4.01438
+2.425882
+4.427949
+4.78553
+3.249865
+3.508351
+2.014449
+2.166536
+4.88366
+4.452486
+2.894478
+2.183001
+4.596999
+2.441863
+3.318372
+2.866164
+2.936152
+2.319978
+2.329425
+2.945849
+5.133204
+3.021357
+6.261285
+3.483704
+2.640484
+4.985122
+3.500861
+3.375265
+5.048183
+4.994266
+3.073139
+3.078407
+4.670104
+4.788347
+3.109303
+2.762073
+4.121369
+2.670826
+5.266703
+5.860785
+2.689083
+3.087253
+5.051764
+3.57657
+4.860177
+3.894511
+2.436042
+2.800001
+5.022736
+2.461033
+4.21791
+4.734381
+4.178297
+3.750118
+4.46976
+2.903179
+1.974021
+4.162245
+3.700642
+3.126102
+2.226575
+2.934369
+5.526844
+2.373114
+3.285229
+4.577824
+2.948181
+3.889766
+2.760537
+5.811881
+4.726706
+4.621119
+4.090865
+4.598866
+4.774282
+4.765285
+4.705359
+2.476945
+5.082375
+4.28688
+5.185082
+2.590401
+3.695298
+3.252325
+5.250575
+6.171654
+4.756352
+3.044564
+2.654176
+3.275314
+2.746507
+2.316287
+3.319703
+2.652412
+3.92743
+2.450654
+2.434022
+3.239751
+4.265656
+3.135583
+2.587284
+4.465605
+5.882813
+2.776633
+3.147676
+2.369536
+5.324308
+4.492163
+4.140211
+2.950381
+2.529286
+4.993553
+2.542992
+3.750843
+3.592323
+3.618298
+2.533194
+3.67297
+3.062813
+5.54546
+3.548787
+3.20394
+4.506218
+3.433945
+3.036186
+3.730056
+4.70367
+2.550881
+2.494713
+3.071572
+4.12877
+3.414894
+4.924082
+2.445853
+2.957034
+4.026294
+4.020286
+5.435189
+3.493212
+2.659909
+3.319913
+3.6552
+2.849521
+3.492148
+3.68364
+4.946612
+5.008721
+5.378409
+3.146824
+2.348368
+3.487072
+4.170116
+3.446536
+3.556766
+3.404253
+4.956977
+4.579753
+3.786747
+3.520275
+3.840836
+1.774911
+4.909717
+3.861007
+3.651554
+3.594212
+3.739111
+5.034864
+4.556569
+4.64473
+2.654804
+5.3295
+2.167566
+2.597888
+3.464445
+5.486693
+3.088486
+3.557822
+5.779773
+2.157921
+3.812894
+5.250816
+3.277509
+5.582549
+3.056969
+2.342686
+4.018211
+4.900042
+3.611258
+3.270175
+2.40994
+2.288475
+5.517106
+3.563981
+4.470044
+2.697284
+2.110193
+5.276758
+3.467874
+2.682471
+2.323224
+2.340303
+2.145632
+3.885073
+2.207983
+2.782157
+3.925008
+4.82866
+4.527779
+4.972569
+2.515104
+2.579274
+4.216668
+2.44684
+4.77655
+3.917892
+2.397348
+2.690341
+2.168479
+4.898208
+2.428865
+3.547776
+5.372291
+1.920368
+2.410893
+5.366095
+2.899296
+3.996282
+2.234589
+3.471634
+4.719374
+3.097278
+3.332233
+2.544143
+3.454431
+4.84265
+3.392907
+4.847523
+3.605547
+4.420626
+2.496522
+2.396538
+4.844493
+3.415236
+3.771662
+3.100455
+4.446688
+2.674176
+3.370335
+5.97376
+2.55674
+5.170804
+3.5615
+3.04424
+4.835489
+4.011345
+2.76998
+3.189075
+3.152875
+3.703109
+4.777117
+3.222893
+4.913641
+4.987953
+4.402033
+4.772003
+5.082835
+3.400038
+2.793389
+4.809221
+3.187448
+2.660882
+2.273369
+2.515089
+5.582479
+6.24456
+4.873915
+2.805121
+5.323146
+3.843627
+5.196325
+2.926446
+2.752059
+5.119124
+4.849681
+3.52138
+2.629904
+4.132884
+6.319032
+2.299286
+3.944537
+2.85633
+3.426886
+3.522217
+2.933321
+3.490619
+5.022718
+4.236586
+5.577426
+4.684548
+2.441917
+4.154521
+2.78794
+5.152185
+3.117835
+5.120978
+4.301363
+3.373782
+4.29496
+5.614405
+4.015742
+3.947545
+3.471112
+4.419583
+4.8414
+2.459794
+2.644302
+4.156754
+3.255243
+3.102538
+3.987685
+2.530792
+4.378873
+3.25217
+4.419509
+3.101169
+5.153042
+5.338559
+4.235978
+2.981479
+4.819499
+2.720828
+5.57639
+3.550034
+1.995825
+1.57242
+3.153291
+2.322677
+3.724131
+3.165475
+4.677007
+2.715274
+3.44218
+3.120724
+2.637411
+3.74663
+3.965467
+3.25365
+3.970965
+2.917833
+4.575055
+2.712544
+5.244946
+4.49951
+4.180941
+4.450575
+5.099977
+2.543285
+2.753154
+4.057383
+4.298226
+4.449571
+4.700943
+3.677471
+2.499594
+5.338372
+3.656445
+4.615719
+3.701576
+2.680451
+2.655906
+3.119114
+3.667855
+4.957322
+3.387298
+3.153587
+2.611863
+4.532556
+5.04495
+2.554143
+5.484992
+4.685211
+5.338089
+4.722178
+4.328749
+3.043328
+2.939976
+4.636608
+2.295771
+2.994667
+2.491465
+3.797552
+2.343034
+4.773588
+4.922859
+2.061643
+5.432703
+2.716691
+4.070466
+4.871133
+2.917764
+2.740033
+5.331851
+6.109965
+4.948304
+4.840244
+5.070661
+4.753488
+2.462761
+3.563148
+2.239459
+2.718197
+5.049254
+2.776381
+4.746122
+2.664894
+3.277693
+2.177009
+2.891671
+5.01536
+3.170122
+3.457937
+4.584407
+3.027465
+2.617742
+3.767065
+2.504489
+3.410117
+2.354992
+1.74069
+2.730207
+4.523524
+3.830679
+2.273247
+2.512386
+1.926777
+4.347377
+2.954651
+5.975802
+4.034899
+2.177994
+2.69787
+3.741315
+3.779448
+3.221939
+4.03475
+3.305707
+2.738284
+4.876347
+6.08904
+3.156885
+3.818426
+3.172643
+4.296924
+3.566005
+5.682859
+4.071952
+4.194217
+6.282775
+2.893992
+3.397768
+5.016527
+2.833191
+4.043239
+2.827993
+5.202977
+2.659612
+2.219219
+2.295338
+2.14393
+4.854858
+5.923589
+4.927046
+2.895473
+2.927468
+5.125906
+4.346375
+4.09706
+3.571445
+5.313877
+4.978716
+3.7201
+2.955184
+4.597566
+2.896214
+2.652578
+2.628592
+3.299881
+3.250174
+2.993889
+4.68665
+2.291594
+3.028497
+6.239851
+2.787982
+3.970063
+2.770822
+2.540005
+4.97052
+4.230598
+3.319122
+3.862461
+3.180382
+5.227752
+3.746639
+4.043675
+3.431192
+4.227338
+2.002576
+4.733109
+4.373715
+3.806944
+5.218897
+2.638339
+2.570385
+4.421945
+3.323904
+5.562706
+3.281303
+3.038363
+1.890461
+2.339449
+5.907487
+3.847497
+4.024368
+3.464364
+3.186039
+3.70279
+3.060176
+4.78992
+2.878121
+5.10358
+2.826734
+4.23711
+3.04257
+4.926567
+4.324179
+3.058992
+4.958722
+4.655199
+2.772782
+3.260942
+4.022398
+2.203507
+3.752529
+5.032175
+2.878776
+2.855602
+2.660311
+3.544256
+4.25826
+3.272714
+4.413448
+3.603506
+2.675627
+2.611619
+3.935047
+4.36406
+2.523719
+3.376641
+5.808564
+4.164374
+2.850817
+3.394122
+4.048285
+4.530195
+4.677575
+2.746786
+4.714209
+3.088797
+3.67507
+4.712955
+4.306904
+1.845279
+2.672202
+5.578185
+3.347123
+3.1286
+3.08642
+4.105118
+3.125538
+2.539174
+3.393208
+3.097233
+4.006014
+4.153361
+4.187341
+3.588704
+2.543729
+3.346958
+5.076093
+3.986688
+2.327575
+1.709848
+2.59549
+3.415671
+2.704954
+4.350007
+2.616241
+3.187385
+5.725338
+4.880957
+3.543256
+4.040364
+3.960006
+2.476213
+4.434699
+3.252022
+2.105356
+3.763121
+2.06168
+4.703818
+3.320425
+4.330217
+6.085791
+3.240952
+4.120642
+2.354778
+2.994479
+3.665788
+6.178098
+5.382277
+3.867989
+2.116836
+1.988483
+6.053633
+3.908753
+2.471312
+6.002598
+3.058647
+3.08416
+3.164505
+3.413645
+5.587729
+4.233906
+2.624955
+4.763251
+4.268546
+6.047667
+3.806534
+3.343374
+4.144717
+5.561704
+4.290839
+4.574464
+3.474183
+6.199092
+3.808432
+3.802983
+4.381983
+4.09745
+3.891947
+3.354344
+2.850957
+4.161803
+3.985637
+5.387206
+5.397902
+3.562362
+4.271976
+3.058347
+3.522202
+5.920205
+4.780741
+4.347264
+6.118837
+3.750124
+4.744796
+4.521106
+3.042557
+2.621502
+4.20166
+3.735674
+3.729266
+2.188457
+4.309464
+3.682932
+2.936473
+4.609383
+2.641745
+2.645093
+3.721173
+3.21358
+3.854638
+3.652311
+3.155079
+3.62836
+4.246953
+3.819016
+4.936001
+2.860385
+4.605008
+3.10947
+3.932174
+4.664267
+2.793847
+4.727424
+3.207169
+2.640349
+5.853038
+3.071781
+4.439899
+1.912224
+4.904369
+4.499593
+3.065805
+3.925796
+3.178727
+3.433601
+3.472222
+2.396987
+5.514603
+4.845047
+1.694486
+2.634199
+3.082979
+4.038453
+5.166673
+2.77177
+2.162143
+4.336919
+3.582144
+5.682788
+2.211966
+5.539484
+4.190105
+3.703991
+6.041077
+3.220697
+4.99624
+3.933534
+3.786812
+2.863044
+1.659008
+4.854439
+3.786242
+3.924676
+3.567448
+2.109924
+5.876108
+3.24251
+3.39769
+3.378049
+2.71738
+5.681148
+3.040373
+3.753199
+3.953216
+2.392771
+3.774384
+3.914425
+5.587462
+4.312082
+3.046661
+5.27087
+4.092622
+3.564233
+4.375623
+2.143391
+2.710974
+3.570516
+2.10287
+4.48512
+3.613721
+4.066987
+4.02151
+4.02865
+2.442175
+2.080789
+3.672701
+2.660092
+3.117206
+4.066267
+3.867123
+4.754888
+3.033743
+2.861523
+3.990611
+2.227301
+3.974583
+3.681345
+4.554682
+4.287932
+5.241029
+3.212528
+3.740373
+3.319257
+1.903094
+5.805328
+4.257002
+3.167767
+3.107049
+3.045569
+3.614458
+5.029169
+4.968675
+3.214236
+3.092416
+3.010392
+5.99017
+2.679745
+4.078566
+4.393601
+2.44608
+2.425317
+4.569002
+2.809041
+3.801458
+2.786436
+4.207401
+5.633171
+3.674287
+3.011522
+3.588804
+3.66971
+3.637623
+4.232907
+5.527823
+2.449214
+Unable to save timers to file C:/Users/shunsuke/ml-agents-release_19/apps/Gridwide_Data\ML-Agents\Timers\GridUpdate_timers.json
+Setting up 4 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 1477947 frames, [2.0 KB-4.0 KB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 252 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 50.3 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 50
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1477950 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 5.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1477950 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.6 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 3
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 1477949 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 65.6 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1477950 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 7.2 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 1477950 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.3 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1477949 frames, [256.0 KB-0.5 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 458.6 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 1477950 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.0 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1477950 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B

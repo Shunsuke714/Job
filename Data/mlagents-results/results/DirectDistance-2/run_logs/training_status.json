@@ -1,0 +1,47 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499978,
+                "file_path": "results\\DirectDistance-2\\Toio\\Toio-499978.onnx",
+                "reward": 1.3449999690055847,
+                "creation_time": 1666937166.2001748,
+                "auxillary_file_paths": [
+                    "results\\DirectDistance-2\\Toio\\Toio-499978.pt"
+                ]
+            },
+            {
+                "steps": 999957,
+                "file_path": "results\\DirectDistance-2\\Toio\\Toio-999957.onnx",
+                "reward": 1.394864839476508,
+                "creation_time": 1666939041.2428863,
+                "auxillary_file_paths": [
+                    "results\\DirectDistance-2\\Toio\\Toio-999957.pt"
+                ]
+            },
+            {
+                "steps": 1000014,
+                "file_path": "results\\DirectDistance-2\\Toio\\Toio-1000014.onnx",
+                "reward": 1.393947344077261,
+                "creation_time": 1666939041.3672678,
+                "auxillary_file_paths": [
+                    "results\\DirectDistance-2\\Toio\\Toio-1000014.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000014,
+            "file_path": "results\\DirectDistance-2\\Toio.onnx",
+            "reward": 1.393947344077261,
+            "creation_time": 1666939041.3672678,
+            "auxillary_file_paths": [
+                "results\\DirectDistance-2\\Toio\\Toio-1000014.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

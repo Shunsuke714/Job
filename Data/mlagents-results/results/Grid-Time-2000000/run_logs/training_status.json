@@ -1,0 +1,65 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499934,
+                "file_path": "results\\Grid-Time-2000000\\Toio\\Toio-499934.onnx",
+                "reward": null,
+                "creation_time": 1673238918.24991,
+                "auxillary_file_paths": [
+                    "results\\Grid-Time-2000000\\Toio\\Toio-499934.pt"
+                ]
+            },
+            {
+                "steps": 999939,
+                "file_path": "results\\Grid-Time-2000000\\Toio\\Toio-999939.onnx",
+                "reward": 0.2819999843835831,
+                "creation_time": 1673240397.4001977,
+                "auxillary_file_paths": [
+                    "results\\Grid-Time-2000000\\Toio\\Toio-999939.pt"
+                ]
+            },
+            {
+                "steps": 1499821,
+                "file_path": "results\\Grid-Time-2000000\\Toio\\Toio-1499821.onnx",
+                "reward": 0.4549999814480543,
+                "creation_time": 1673241843.1593065,
+                "auxillary_file_paths": [
+                    "results\\Grid-Time-2000000\\Toio\\Toio-1499821.pt"
+                ]
+            },
+            {
+                "steps": 1999755,
+                "file_path": "results\\Grid-Time-2000000\\Toio\\Toio-1999755.onnx",
+                "reward": null,
+                "creation_time": 1673243310.1745098,
+                "auxillary_file_paths": [
+                    "results\\Grid-Time-2000000\\Toio\\Toio-1999755.pt"
+                ]
+            },
+            {
+                "steps": 2000005,
+                "file_path": "results\\Grid-Time-2000000\\Toio\\Toio-2000005.onnx",
+                "reward": 0.29999998211860657,
+                "creation_time": 1673243310.2401564,
+                "auxillary_file_paths": [
+                    "results\\Grid-Time-2000000\\Toio\\Toio-2000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000005,
+            "file_path": "results\\Grid-Time-2000000\\Toio.onnx",
+            "reward": 0.29999998211860657,
+            "creation_time": 1673243310.2401564,
+            "auxillary_file_paths": [
+                "results\\Grid-Time-2000000\\Toio\\Toio-2000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

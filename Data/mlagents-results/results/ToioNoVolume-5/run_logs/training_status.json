@@ -1,0 +1,65 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499926,
+                "file_path": "results\\ToioNoVolume-5\\Toio\\Toio-499926.onnx",
+                "reward": 0.5045333035445462,
+                "creation_time": 1665801267.6609795,
+                "auxillary_file_paths": [
+                    "results\\ToioNoVolume-5\\Toio\\Toio-499926.pt"
+                ]
+            },
+            {
+                "steps": 500399,
+                "file_path": "results\\ToioNoVolume-5\\Toio\\Toio-500399.onnx",
+                "reward": 0.4012221921778594,
+                "creation_time": 1665801270.283706,
+                "auxillary_file_paths": [
+                    "results\\ToioNoVolume-5\\Toio\\Toio-500399.pt"
+                ]
+            },
+            {
+                "steps": 661160,
+                "file_path": "results\\ToioNoVolume-5\\Toio\\Toio-661160.onnx",
+                "reward": 0.5881333254277706,
+                "creation_time": 1665802024.9012883,
+                "auxillary_file_paths": [
+                    "results\\ToioNoVolume-5\\Toio\\Toio-661160.pt"
+                ]
+            },
+            {
+                "steps": 999988,
+                "file_path": "results\\ToioNoVolume-5\\Toio\\Toio-999988.onnx",
+                "reward": 0.729142814874649,
+                "creation_time": 1665808677.3956032,
+                "auxillary_file_paths": [
+                    "results\\ToioNoVolume-5\\Toio\\Toio-999988.pt"
+                ]
+            },
+            {
+                "steps": 1036648,
+                "file_path": "results\\ToioNoVolume-5\\Toio\\Toio-1036648.onnx",
+                "reward": 0.7953332960605621,
+                "creation_time": 1665808805.2291524,
+                "auxillary_file_paths": [
+                    "results\\ToioNoVolume-5\\Toio\\Toio-1036648.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1036648,
+            "file_path": "results\\ToioNoVolume-5\\Toio.onnx",
+            "reward": 0.7953332960605621,
+            "creation_time": 1665808805.2291524,
+            "auxillary_file_paths": [
+                "results\\ToioNoVolume-5\\Toio\\Toio-1036648.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

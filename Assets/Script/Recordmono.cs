@@ -22,11 +22,13 @@ public class Recordmono : MonoBehaviour
     
     void Start()
     {
-        Debug.Log(AudioSettings.driverCapabilities);
         StartWriting(fileName);
         recOutput = true;
         startDspTime = AudioSettings.dspTime;
         outputRate = AudioSettings.outputSampleRate;
+        Debug.Log(AudioSettings.driverCapabilities);
+        Debug.Log(AudioSettings.speakerMode);
+        Debug.Log(outputRate);
     }
 
     // Update is called once per frame

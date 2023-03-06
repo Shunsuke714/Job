@@ -1,0 +1,38 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499267,
+                "file_path": "results\\100second-1\\Toio\\Toio-499267.onnx",
+                "reward": 3.1478670835494995,
+                "creation_time": 1676885229.5009794,
+                "auxillary_file_paths": [
+                    "results\\100second-1\\Toio\\Toio-499267.pt"
+                ]
+            },
+            {
+                "steps": 936021,
+                "file_path": "results\\100second-1\\Toio\\Toio-936021.onnx",
+                "reward": 3.5882375240325928,
+                "creation_time": 1676886877.6811664,
+                "auxillary_file_paths": [
+                    "results\\100second-1\\Toio\\Toio-936021.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 936021,
+            "file_path": "results\\100second-1\\Toio.onnx",
+            "reward": 3.5882375240325928,
+            "creation_time": 1676886877.6811664,
+            "auxillary_file_paths": [
+                "results\\100second-1\\Toio\\Toio-936021.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

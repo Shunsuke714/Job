@@ -1,0 +1,65 @@
+{
+    "Hackathon": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results\\cleaner-4\\Hackathon\\Hackathon-499968.onnx",
+                "reward": null,
+                "creation_time": 1677643147.9802842,
+                "auxillary_file_paths": [
+                    "results\\cleaner-4\\Hackathon\\Hackathon-499968.pt"
+                ]
+            },
+            {
+                "steps": 999967,
+                "file_path": "results\\cleaner-4\\Hackathon\\Hackathon-999967.onnx",
+                "reward": null,
+                "creation_time": 1677644538.2327871,
+                "auxillary_file_paths": [
+                    "results\\cleaner-4\\Hackathon\\Hackathon-999967.pt"
+                ]
+            },
+            {
+                "steps": 1499999,
+                "file_path": "results\\cleaner-4\\Hackathon\\Hackathon-1499999.onnx",
+                "reward": null,
+                "creation_time": 1677645981.3142307,
+                "auxillary_file_paths": [
+                    "results\\cleaner-4\\Hackathon\\Hackathon-1499999.pt"
+                ]
+            },
+            {
+                "steps": 1999994,
+                "file_path": "results\\cleaner-4\\Hackathon\\Hackathon-1999994.onnx",
+                "reward": null,
+                "creation_time": 1677647386.5899024,
+                "auxillary_file_paths": [
+                    "results\\cleaner-4\\Hackathon\\Hackathon-1999994.pt"
+                ]
+            },
+            {
+                "steps": 2000005,
+                "file_path": "results\\cleaner-4\\Hackathon\\Hackathon-2000005.onnx",
+                "reward": 1.4600000083446503,
+                "creation_time": 1677647386.6420274,
+                "auxillary_file_paths": [
+                    "results\\cleaner-4\\Hackathon\\Hackathon-2000005.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000005,
+            "file_path": "results\\cleaner-4\\Hackathon.onnx",
+            "reward": 1.4600000083446503,
+            "creation_time": 1677647386.6420274,
+            "auxillary_file_paths": [
+                "results\\cleaner-4\\Hackathon\\Hackathon-2000005.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

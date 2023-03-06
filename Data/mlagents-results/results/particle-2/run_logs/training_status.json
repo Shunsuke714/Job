@@ -1,0 +1,38 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499750,
+                "file_path": "results\\particle-2\\Toio\\Toio-499750.onnx",
+                "reward": -0.002877874532714486,
+                "creation_time": 1677833297.5717497,
+                "auxillary_file_paths": [
+                    "results\\particle-2\\Toio\\Toio-499750.pt"
+                ]
+            },
+            {
+                "steps": 720000,
+                "file_path": "results\\particle-2\\Toio\\Toio-720000.onnx",
+                "reward": null,
+                "creation_time": 1677834583.1913574,
+                "auxillary_file_paths": [
+                    "results\\particle-2\\Toio\\Toio-720000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 720000,
+            "file_path": "results\\particle-2\\Toio.onnx",
+            "reward": null,
+            "creation_time": 1677834583.1913574,
+            "auxillary_file_paths": [
+                "results\\particle-2\\Toio\\Toio-720000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

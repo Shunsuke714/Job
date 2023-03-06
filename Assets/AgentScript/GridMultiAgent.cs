@@ -224,8 +224,8 @@ public class GridMultiAgent : Agent
         float z = Random.Range(-0.28f, 0.28f);
         if (fix)
         {
-            x = 0f;
-            z = 0f;
+            x = -0.1f;
+            z = 0.1f;
         }
         this.targetPole.position = new Vector3(x, 0.001f, z);
         this.targetPole.gameObject.SetActive(true);
@@ -368,7 +368,7 @@ public class GridMultiAgent : Agent
             WriteCsv();
         }
         float reward = particlefilter.Reward();
-        Debug.Log(reward);
+        //Debug.Log(reward);
         AddReward(-reward);
         EndEpisode();
     }

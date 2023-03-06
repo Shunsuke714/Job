@@ -1,0 +1,56 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 365134,
+                "file_path": "results\\ToioVolumeNoReflection-2\\Toio\\Toio-365134.onnx",
+                "reward": 0.1884999442845583,
+                "creation_time": 1665546086.7838142,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoReflection-2\\Toio\\Toio-365134.pt"
+                ]
+            },
+            {
+                "steps": 403720,
+                "file_path": "results\\ToioVolumeNoReflection-2\\Toio\\Toio-403720.onnx",
+                "reward": 0.7826666575339105,
+                "creation_time": 1665558050.9753225,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoReflection-2\\Toio\\Toio-403720.pt"
+                ]
+            },
+            {
+                "steps": 499921,
+                "file_path": "results\\ToioVolumeNoReflection-2\\Toio\\Toio-499921.onnx",
+                "reward": 0.3871428184211254,
+                "creation_time": 1665558447.4718976,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoReflection-2\\Toio\\Toio-499921.pt"
+                ]
+            },
+            {
+                "steps": 501547,
+                "file_path": "results\\ToioVolumeNoReflection-2\\Toio\\Toio-501547.onnx",
+                "reward": 0.5908571441790887,
+                "creation_time": 1665558453.4187822,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoReflection-2\\Toio\\Toio-501547.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 501547,
+            "file_path": "results\\ToioVolumeNoReflection-2\\Toio.onnx",
+            "reward": 0.5908571441790887,
+            "creation_time": 1665558453.4187822,
+            "auxillary_file_paths": [
+                "results\\ToioVolumeNoReflection-2\\Toio\\Toio-501547.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

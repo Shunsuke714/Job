@@ -1,0 +1,1209 @@
+Mono path[0] = 'C:/Users/shunsuke/ml-agents-release_19/apps/Grid_Data/Managed'
+Mono config path = 'C:/Users/shunsuke/ml-agents-release_19/apps/MonoBleedingEdge/etc'
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Users/shunsuke/ml-agents-release_19/apps/Grid_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.210 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Unlit/Color shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+UnloadTime: 5.757500 ms
+Loaded HRTF: default.
+0.6774029
+0.6030802
+0.5605617
+0.60355
+0.605651
+0.6605272
+0.5920301
+0.6445616
+0.6457112
+0.6383555
+0.5778137
+0.6409391
+0.5601451
+0.6074286
+0.5486473
+0.5627941
+0.6170337
+0.5491073
+0.6268223
+0.6082362
+0.6057685
+0.591547
+0.5331836
+0.6124681
+0.5998212
+0.6351855
+0.6418937
+0.767482
+0.6902322
+0.59144
+0.6748076
+0.6698437
+0.7217084
+0.6282781
+0.6378416
+0.6651729
+0.6694171
+0.6657608
+0.7847356
+0.7501714
+0.6432446
+0.6933758
+0.6747839
+0.7425564
+0.696338
+0.7270765
+0.7292029
+0.6679597
+0.6946012
+0.7675171
+0.6940846
+0.784211
+0.6823331
+0.6401348
+0.7690393
+0.6122254
+0.7688754
+0.7635334
+0.7677103
+0.6852584
+0.7492172
+0.6227421
+0.7852086
+0.7631549
+0.6255316
+0.6580335
+0.7593038
+0.7589154
+0.6182922
+0.7513555
+0.7326746
+0.7531997
+0.6044044
+0.7476185
+0.7347667
+0.7448249
+0.7215973
+0.7392575
+0.7312267
+0.7721648
+0.7511687
+0.7581134
+0.7821637
+0.7501136
+0.768464
+0.7737198
+0.7644316
+0.7843827
+0.7799872
+0.7362598
+0.7767338
+0.7819678
+0.7803458
+0.7806035
+0.7914142
+0.7763324
+0.7570478
+0.7720436
+0.7724672
+0.7850833
+0.7612023
+0.7851096
+0.7352093
+0.784888
+0.7816299
+0.7881483
+0.7460789
+0.7829865
+0.7825664
+0.7840499
+0.7793237
+0.7859645
+0.7922789
+0.7984703
+0.7909362
+0.7850537
+0.7913287
+0.7723813
+0.7888905
+0.7964082
+0.7846354
+0.7881935
+0.7897218
+0.7939552
+0.789458
+0.7831961
+0.7975588
+0.7983762
+0.7886975
+0.7873951
+0.7886251
+0.7855707
+0.7932477
+0.7841697
+0.7882184
+0.7887505
+0.7883631
+0.7891186
+0.7941821
+0.7910674
+0.7926751
+0.7910938
+0.7860364
+0.787658
+0.7892559
+0.7882521
+0.7899418
+0.7920478
+0.7888584
+0.7911535
+0.7855605
+0.7876644
+0.7858821
+0.7863709
+0.7867424
+0.7868405
+0.7911577
+0.7886946
+0.7858534
+0.7912588
+0.7882291
+0.7884364
+0.7946747
+0.7874334
+0.7905715
+0.7878858
+0.79168
+0.7870895
+0.7860053
+0.7872857
+0.7879312
+0.7860297
+0.7861565
+0.7867069
+0.7873062
+0.786504
+0.7930809
+0.7861857
+0.7854326
+0.7858373
+0.7908276
+0.7860166
+0.7950307
+0.7862315
+0.7889973
+0.7869561
+0.7860312
+0.7910429
+0.7882089
+0.7888122
+0.7900923
+0.7862576
+0.7857998
+0.7862667
+0.7859816
+0.7857995
+0.786151
+0.7902853
+0.7864813
+0.7867248
+0.7908634
+0.7874998
+0.7890984
+0.7858232
+0.7909798
+0.7864333
+0.7913899
+0.7863221
+0.7863883
+0.7917745
+0.7889444
+0.7910746
+0.7864078
+0.7868079
+0.7857653
+0.7908452
+0.785737
+0.7857998
+0.7858612
+0.7947669
+0.7864355
+0.7864078
+0.788238
+0.7856788
+0.7858685
+0.7863931
+0.7857995
+0.7892978
+0.7857653
+0.7864078
+0.7868882
+0.7863862
+0.7860116
+0.7857001
+0.786343
+0.7861922
+0.7875631
+0.7868205
+0.7864078
+0.792941
+0.7860764
+0.7933379
+0.7857653
+0.7875286
+0.7856788
+0.7857998
+0.7864078
+0.7856619
+0.7859333
+0.7864333
+0.7857653
+0.7856619
+0.7857653
+0.7857998
+0.7864078
+0.7856619
+0.7858832
+0.7863883
+0.7858403
+0.7861091
+0.7857653
+0.7872131
+0.786876
+0.7856619
+0.7863931
+0.7866652
+0.7864612
+0.7858433
+0.7857995
+0.7860119
+0.7857998
+0.7855759
+0.7859141
+0.7860191
+0.7857998
+0.7857304
+0.7883726
+0.7857998
+0.7860044
+0.7859502
+0.7856619
+0.7906219
+0.7857998
+0.7850918
+0.7900923
+0.785786
+0.7857998
+0.7858889
+0.7859502
+0.7857998
+0.7857998
+0.7856619
+0.7856619
+0.7857998
+0.7857998
+0.7856619
+0.7856619
+0.7857998
+0.785786
+0.7857147
+0.7856619
+0.7860044
+0.7869762
+0.7860425
+0.786876
+0.7857998
+0.7857653
+0.7856619
+0.785926
+0.7850009
+0.7860077
+0.7864914
+0.7864078
+0.7857998
+0.7865433
+0.7859502
+0.785926
+0.7857998
+0.7861122
+0.7859502
+0.7864078
+0.7857998
+0.7859566
+0.7856619
+0.785926
+0.7857998
+0.7860077
+0.7856619
+0.7864078
+0.7861141
+0.7857653
+0.7856619
+0.7903353
+0.7903942
+0.7858612
+0.7856619
+0.7864078
+0.7857998
+0.7857653
+0.7860813
+0.7858543
+0.7902016
+0.7860077
+0.7857521
+0.7864078
+0.7857998
+0.7857653
+0.7859175
+0.785976
+0.7857998
+0.7860077
+0.7854953
+0.7864078
+0.7902016
+0.7857653
+0.7859175
+0.785926
+0.7862315
+0.7860077
+0.7857521
+0.7862687
+0.7862161
+0.7857995
+0.7868174
+0.785926
+0.7860053
+0.7860077
+0.7858022
+0.7864078
+0.7859956
+0.7857653
+0.7863713
+0.7891837
+0.7858832
+0.7857998
+0.78624
+0.7858612
+0.7857653
+0.7861812
+0.7867248
+0.7857521
+0.7875138
+0.7857998
+0.7858232
+0.7858612
+0.7856788
+0.7857998
+0.7864078
+0.7857521
+0.7858832
+0.7857998
+0.7857103
+0.7859175
+0.7857653
+0.7857998
+0.7860077
+0.7857521
+0.7907222
+0.7857998
+0.7858156
+0.7859175
+0.7857995
+0.7857998
+0.7860077
+0.7857521
+0.7864929
+0.7864285
+0.7857653
+0.786079
+0.7857653
+0.7859936
+0.7857995
+0.7860119
+0.7864078
+0.7862116
+0.7857653
+0.7858413
+0.7857653
+0.7857998
+0.7860077
+0.7857521
+0.7868036
+0.7889562
+0.7868249
+0.7859175
+0.7857653
+0.7857998
+0.7859963
+0.7855967
+0.7867248
+0.7857998
+0.7857653
+0.7893742
+0.7868249
+0.7862386
+0.7859313
+0.7864078
+0.7864078
+0.7857653
+0.7857653
+0.7903353
+0.7857653
+0.7860546
+0.7860077
+0.7857998
+0.7864078
+0.7857653
+0.7857504
+0.7857998
+0.7857653
+0.7862386
+0.7859313
+0.7864078
+0.7864078
+0.7857653
+0.7857653
+0.785926
+0.7857653
+0.7862386
+0.7860077
+0.7857998
+0.7864078
+0.7857103
+0.7857653
+0.7858832
+0.7857653
+0.7858832
+0.7860077
+0.7857653
+0.7864078
+0.7857653
+0.7857653
+0.7858832
+0.7857001
+0.7860268
+0.7860077
+0.785979
+0.7945024
+0.7857653
+0.7857521
+0.7858832
+0.7857998
+0.7860119
+0.7864497
+0.7855967
+0.7867248
+0.7857448
+0.7891775
+0.7863713
+0.7857653
+0.7860077
+0.7858832
+0.7857653
+0.7858832
+0.7864771
+0.7864962
+0.7864078
+0.7857653
+0.7857103
+0.786079
+0.7857998
+0.7857998
+0.7862386
+0.7871803
+0.7858832
+0.7855434
+0.7857653
+0.7859175
+0.7858396
+0.7857998
+0.7864078
+0.7857521
+0.7858832
+0.7857998
+0.7857653
+0.7859175
+0.785926
+0.7857998
+0.7864078
+0.7857521
+0.7874341
+0.7857998
+0.7857103
+0.7859175
+0.785926
+0.7857998
+0.786554
+0.7857521
+0.7864078
+0.7877424
+0.7921966
+0.7858832
+0.7857103
+0.7857653
+0.7932253
+0.7857998
+0.7857653
+0.7863713
+0.7890668
+0.7868787
+0.7863244
+0.7857653
+0.785386
+0.7857653
+0.7861496
+0.7857998
+0.7860119
+0.7856619
+0.7863713
+0.7854331
+0.7860077
+0.7894039
+0.7857653
+0.7858832
+0.7857653
+0.7857653
+0.7864078
+0.7857653
+0.7860077
+0.7858832
+0.7857653
+0.7902853
+0.7858156
+0.7857653
+0.7864078
+0.7901781
+0.7860077
+0.7893871
+0.7857653
+0.7857998
+0.7857653
+0.7856619
+0.7865914
+0.7857998
+0.7860077
+0.7856619
+0.7900811
+0.7862315
+0.7857653
+0.7856619
+0.7864526
+0.7857998
+0.7857998
+0.7856619
+0.7856619
+0.7857998
+0.7857998
+0.7856178
+0.7856619
+0.7857998
+0.7902016
+0.7857304
+0.7856619
+0.7869222
+0.7862315
+0.7856619
+0.7856619
+0.7857998
+0.7857998
+0.7856619
+0.7856619
+0.7857998
+0.7857998
+0.7900923
+0.7856619
+0.7857998
+0.7862315
+0.7856619
+0.7856619
+0.7857998
+0.7857998
+0.7864914
+0.7900923
+0.7857998
+0.7857998
+0.7856619
+0.7856619
+0.7857998
+0.7857998
+0.7856619
+0.7856619
+0.7858601
+0.7862315
+0.7857758
+0.7895058
+0.7858804
+0.7864078
+0.7856619
+0.7857653
+0.7857998
+0.7857653
+0.7856619
+0.7858832
+0.7857998
+0.7864078
+0.7856469
+0.7857653
+0.7857998
+0.7891775
+0.7856469
+0.7863644
+0.7860119
+0.7860077
+0.7863713
+0.7857998
+0.7862386
+0.7857653
+0.7857653
+0.7857998
+0.7857653
+0.7860077
+0.7858832
+0.7857998
+0.7864078
+0.7857653
+0.7901781
+0.7857998
+0.7857653
+0.7860077
+0.7858832
+0.7857155
+0.7861087
+0.7857653
+0.7857653
+0.7857998
+0.7857653
+0.7860077
+0.7858832
+0.7857998
+0.7864078
+0.7857653
+0.7932253
+0.7854774
+0.7857998
+0.7858832
+0.7857521
+0.7858832
+0.7857998
+0.785926
+0.7859175
+0.7857653
+0.7857998
+0.7858832
+0.7930976
+0.7858832
+0.7858832
+0.7890787
+0.7864078
+0.7857653
+0.7857653
+0.7866139
+0.785926
+0.7857998
+0.7858832
+0.7857521
+0.7864078
+0.7857998
+0.7857653
+0.786429
+0.785926
+0.7907222
+0.7868787
+0.7857521
+0.7859276
+0.7857653
+0.7865959
+0.7863713
+0.785926
+0.7857998
+0.7858832
+0.787266
+0.7864078
+0.7857998
+0.7857653
+0.7873166
+0.785926
+0.7864526
+0.7858832
+0.7857521
+0.7864078
+0.7857653
+0.7857653
+0.7863713
+0.785926
+0.7857998
+0.7858832
+0.7857521
+0.7864146
+0.7857998
+0.7857653
+0.7864497
+0.785926
+0.7864078
+0.7858832
+0.7857521
+0.7864078
+0.7857653
+0.7901781
+0.7863713
+0.785926
+0.7857998
+0.7858832
+0.7857521
+0.7864078
+0.7857998
+0.7857653
+0.7864497
+0.785926
+0.7864078
+0.7868787
+0.7857521
+0.7864078
+0.7857653
+0.7857653
+0.7863713
+0.785926
+0.7857998
+0.7858832
+0.7857521
+0.7864078
+0.7862161
+0.7858612
+0.7902616
+0.785926
+0.7859502
+0.7858832
+0.7859175
+0.7864078
+0.7857998
+0.7857653
+0.7855388
+0.785926
+0.7857448
+0.7858832
+0.7902009
+0.7864078
+0.7857998
+0.7857653
+0.7855388
+0.785926
+0.7857998
+0.7858832
+0.7859175
+0.7864078
+0.7857998
+0.7892997
+0.7855388
+0.7929003
+0.7857998
+0.7864078
+0.7859175
+0.7856403
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7864078
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7858832
+0.7857504
+0.7863581
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.7865959
+0.7864078
+0.7857653
+0.7862386
+0.7859706
+0.7857653
+0.7859333
+0.7857653
+0.785926
+0.7858832
+0.7857995
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7864078
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7858832
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7864078
+0.7857653
+0.7862386
+0.7861739
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7858832
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7864078
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7858832
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7864078
+0.7857653
+0.7862386
+0.7860077
+0.7863408
+0.7860268
+0.7857653
+0.785926
+0.7858832
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7864078
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7858832
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7863408
+0.7858543
+0.7864078
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7858832
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7857653
+0.785926
+0.7863458
+0.7857653
+0.7862386
+0.7860077
+0.7857653
+0.7858832
+0.7854774
+Setting up 4 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 560523 frames, [2.0 KB-4.0 KB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 240 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 47.7 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 107
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 560526 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 4.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 560526 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.5 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 3
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 560525 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 65.6 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 560526 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 5.8 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 560526 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.3 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 560525 frames, [256.0 KB-0.5 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 439.5 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.0 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 560526 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.0 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 560526 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B

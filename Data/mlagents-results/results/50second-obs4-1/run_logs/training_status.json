@@ -1,0 +1,29 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 272918,
+                "file_path": "results\\50second-obs4-1\\Toio\\Toio-272918.onnx",
+                "reward": null,
+                "creation_time": 1676888014.2035081,
+                "auxillary_file_paths": [
+                    "results\\50second-obs4-1\\Toio\\Toio-272918.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 272918,
+            "file_path": "results\\50second-obs4-1\\Toio.onnx",
+            "reward": null,
+            "creation_time": 1676888014.2035081,
+            "auxillary_file_paths": [
+                "results\\50second-obs4-1\\Toio\\Toio-272918.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

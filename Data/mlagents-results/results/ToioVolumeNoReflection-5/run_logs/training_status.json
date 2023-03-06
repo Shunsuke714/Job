@@ -1,0 +1,47 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499767,
+                "file_path": "results\\ToioVolumeNoReflection-5\\Toio\\Toio-499767.onnx",
+                "reward": 0.49399997510149013,
+                "creation_time": 1665629722.6912432,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoReflection-5\\Toio\\Toio-499767.pt"
+                ]
+            },
+            {
+                "steps": 999972,
+                "file_path": "results\\ToioVolumeNoReflection-5\\Toio\\Toio-999972.onnx",
+                "reward": 0.7950908826156096,
+                "creation_time": 1665631254.1087499,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoReflection-5\\Toio\\Toio-999972.pt"
+                ]
+            },
+            {
+                "steps": 1181477,
+                "file_path": "results\\ToioVolumeNoReflection-5\\Toio\\Toio-1181477.onnx",
+                "reward": 0.7903332908948263,
+                "creation_time": 1665631803.0463114,
+                "auxillary_file_paths": [
+                    "results\\ToioVolumeNoReflection-5\\Toio\\Toio-1181477.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1181477,
+            "file_path": "results\\ToioVolumeNoReflection-5\\Toio.onnx",
+            "reward": 0.7903332908948263,
+            "creation_time": 1665631803.0463114,
+            "auxillary_file_paths": [
+                "results\\ToioVolumeNoReflection-5\\Toio\\Toio-1181477.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
