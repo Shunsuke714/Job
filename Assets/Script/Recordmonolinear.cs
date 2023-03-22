@@ -7,6 +7,7 @@ public class Recordmonolinear : MonoBehaviour
 {
 
     [SerializeField] AudioSource _source;
+    [SerializeField] float height;
     // Start is called before the first frame update
 
     double startDspTime;
@@ -62,7 +63,7 @@ public class Recordmonolinear : MonoBehaviour
     {
         if (elapsedDspTime > 18d + count * 10)
         {
-            this.transform.position = new Vector3(0, 0.02f, 0.18f-count*0.02f);
+            this.transform.position = new Vector3(0, height, 0.98f-count*0.02f);
             count++;
         }
     }

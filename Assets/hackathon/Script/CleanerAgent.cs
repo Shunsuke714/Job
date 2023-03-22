@@ -34,13 +34,12 @@ public class CleanerAgent : Agent
     public GameObject [] Targets= { Target1, Target2, Target3, Target4};
     public Transform[] Boxes = { Box1, Box2, Box3, Box4 };
 
-
     //エピソード開始時
     public override void OnEpisodeBegin()
     {
+        //変数の初期化
         hand = -1;
         cnt = 0;
-
         //ターゲットの配置
         while (true)
         {
@@ -91,7 +90,7 @@ public class CleanerAgent : Agent
         sensor.AddObservation(rBody.velocity.z / 10f);
     }
 
-    //行動をとる
+    //行動
     public override void OnActionReceived(ActionBuffers actionBuffers)
     {
        
@@ -161,6 +160,8 @@ public class CleanerAgent : Agent
 
         
     }
+
+    //手で動かす用
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var actions = actionsOut.DiscreteActions;
@@ -175,18 +176,18 @@ public class CleanerAgent : Agent
     //(1,0,0) -> ターゲットをまだ回収していない 
     //(0,1,0) -> ターゲットを手に持っている
     //(0,0,1) -> ターゲットを片付け終わった
-    public Vector3 Check(GameObject target, int n)
+    public Vector3 Check(GameObject target, int id)
     {
         Vector3  v = new Vector3(0, 0, 0);
         if (target.activeSelf)
         {
             v[0] = 1;
         }
-        else if(!target.activeSelf && hand == n)
+        else if(!target.activeSelf && hand == id)
         {
             v[1] = 1;
         }
-        else if(!target.activeSelf && hand != n)
+        else if(!target.activeSelf && hand != id)
         {
             v[2] = 1;
         }

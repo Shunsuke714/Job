@@ -35,7 +35,7 @@ public class MicArrayTools : MonoBehaviour
         TextAsset csvFile; // CSVファイル
         List<string[]> csvData = new List<string[]>(); // CSVの中身を入れるリスト;
         float[][] wavData;
-        csvFile = Resources.Load("45") as TextAsset; // Resouces下のCSV読み込み
+        csvFile = Resources.Load("wave") as TextAsset; // Resouces下のCSV読み込み
 
         StringReader reader = new StringReader(csvFile.text);
 
@@ -113,7 +113,7 @@ public class MicArrayTools : MonoBehaviour
         int fullLength = wavData[0].Length;
         StearingVector[][] stearingVecArray= LoadStearingVec(257);
 
-        
+        /*
         //読み込んだ多チャンネル波形の表示（デバッグ用）
         Color[] pallet = new Color[] { Color.blue, Color.red, Color.green, Color.cyan, Color.magenta, Color.yellow, Color.gray, Color.white};
         for (int ch = 0;ch< numChannel;ch++) {
@@ -139,8 +139,9 @@ public class MicArrayTools : MonoBehaviour
             {
                 renderer.SetPosition(i, new Vector3((float)(i - (L / 2.0)) * scaleX, wavData[ch][i] * scaleY, 0f));
             }
-
         }
+        */
+        
         
 
         int advancePosition = 256;
@@ -151,6 +152,7 @@ public class MicArrayTools : MonoBehaviour
         {
             freqData[i] = computeFFT(wavData[i], 0, windowSize);
         }
+        
         /*
         //フーリエ変換後スペクトルの表示（デバッグ用）
         {
@@ -174,6 +176,8 @@ public class MicArrayTools : MonoBehaviour
             }
         }
         */
+        
+        
         
         int numStep =10;
         var corrArray=new MathNet.Numerics.LinearAlgebra.Matrix<MathNet.Numerics.Complex32>[windowSize / 2 + 1];

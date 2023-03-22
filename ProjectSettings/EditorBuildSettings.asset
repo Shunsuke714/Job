@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GridUpdate.unity
     guid: b94d7f680a674e548b4c2a56a67021e6
+  - enabled: 1
+    path: Assets/hackathon/Scene/Cleaner.unity
+    guid: 276490513a40d304a88143438ec083fa
   m_configObjects: {}

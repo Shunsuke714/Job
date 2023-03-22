@@ -326,6 +326,10 @@ PrefabInstance:
       value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 3383960766756905520, guid: cdb3cb207738d3b45ade7abf174b8f7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383960766756905520, guid: cdb3cb207738d3b45ade7abf174b8f7a, type: 3}
       propertyPath: m_TagString
       value: wall
       objectReference: {fileID: 0}
@@ -690,7 +694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 1850677569}
-  dist: 0.03
+  dist: 0.0516
+  height: 0.02
 --- !u!65 &632420383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -790,7 +795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   x: 0
-  z: 0.2
+  z: 1
 --- !u!114 &632420389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,7 +1009,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 0.03
-  MaxDistance: 0.5
+  MaxDistance: 1.5
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

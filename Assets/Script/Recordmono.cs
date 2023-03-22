@@ -7,9 +7,10 @@ public class Recordmono : MonoBehaviour
 {
     [SerializeField] AudioSource _source;
     [SerializeField] float dist;
+    [SerializeField] float height;
 
     double startDspTime;
-    double buffer = 3 / 60d;
+    double buffer = 5 / 60d;
 
     private int outputRate = 44100;
     private string fileName = "Data/Audio_data/output.wav";
@@ -53,22 +54,22 @@ public class Recordmono : MonoBehaviour
         //Listener‚ÌˆÚ“®
         if (count == 0 && elapsedDspTime > 18d)
         {
-            this.transform.position = new Vector3(-dist, 0.02f, dist);
+            this.transform.position = new Vector3(-dist, height, dist);
             count++;
         }
         if (count == 1 && elapsedDspTime > 28d)
         {
-            this.transform.position = new Vector3(dist, 0.02f, dist);
+            this.transform.position = new Vector3(dist, height, dist);
             count++;
         }
         if (count == 2 && elapsedDspTime > 38d)
         {
-            this.transform.position = new Vector3(-dist, 0.02f, -dist);
+            this.transform.position = new Vector3(-dist, height, -dist);
             count++;
         }
         if (count == 3 && elapsedDspTime > 48d)
         {
-            this.transform.position = new Vector3(dist, 0.02f, -dist);
+            this.transform.position = new Vector3(dist, height, -dist);
         }
 
     }
