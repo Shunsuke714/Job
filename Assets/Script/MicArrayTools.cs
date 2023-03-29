@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using UnityEngine;
 using MathNet.Numerics;
 using MathNet.Numerics.IntegralTransforms;
@@ -206,7 +207,7 @@ public class MicArrayTools : MonoBehaviour
             }
 
         }
-        int numSource = 1;
+        int numSource = 2;
         int numDirection = stearingVecArray.Length;//-pi ～　pi  
         float[] musicPowerList = new float[numDirection];//各方向を表すインデックス番目にMUSIC Powerが計算される
 
@@ -251,8 +252,25 @@ public class MicArrayTools : MonoBehaviour
                 renderer.SetPosition(i, new Vector3((float)(i - (numDirection / 2.0)) * scaleX, power * scaleY - 0.1f, 0f));
             }
         }
+
+        WriteCsv(musicPowerList, numDirection);
     }
     void Update()
     {
+    }
+
+    void WriteCsv(float [] musicPowerList, int numDirection)
+    {
+        StreamWriter file = new StreamWriter(@"C:\Users\shunsuke\UnityProjects\My Project\Data\Direction_data\power.csv", false, Encoding.GetEncoding("Shift_JIS"));
+        for(int i = 0; i < numDirection; i++)
+        {
+            var line = "";
+            line += (-180+i * 20).ToString();
+            line += ",";
+            line += musicPowerList[i];
+            file.WriteLine(line);
+        }
+        file.Close();
+
     }
 }

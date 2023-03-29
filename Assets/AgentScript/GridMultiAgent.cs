@@ -213,10 +213,14 @@ public class GridMultiAgent : Agent
         //キューブの位置のリセット
         if (this.connectType != ConnectType.Real)
         {
+            float posx1 = Random.Range(-0.5f, 0);
+            float posx2 = Random.Range(0, 0.5f);
+            //float posx1 = -0.28f;
+            //float posx2 = 0.28f;
             this.cube1.transform.rotation = Quaternion.Euler(0, 90f, 0);
-            this.cube1.transform.position = new Vector3(-0.28f, 0, -0.5f);
+            this.cube1.transform.position = new Vector3(posx1, 0, -0.5f);
             this.cube2.transform.rotation = Quaternion.Euler(0, -90f, 0);
-            this.cube2.transform.position = new Vector3(0.28f, 0, -0.5f);
+            this.cube2.transform.position = new Vector3(posx2, 0, -0.5f);
         }
 
         //ターゲットポールの配置

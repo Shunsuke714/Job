@@ -1,0 +1,65 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499750,
+                "file_path": "results/particle30-2/Toio/Toio-499750.onnx",
+                "reward": -0.0019417049588810187,
+                "creation_time": 1677978270.6348548,
+                "auxillary_file_paths": [
+                    "results/particle30-2/Toio/Toio-499750.pt"
+                ]
+            },
+            {
+                "steps": 999750,
+                "file_path": "results/particle30-2/Toio/Toio-999750.onnx",
+                "reward": null,
+                "creation_time": 1677982023.0706615,
+                "auxillary_file_paths": [
+                    "results/particle30-2/Toio/Toio-999750.pt"
+                ]
+            },
+            {
+                "steps": 1499750,
+                "file_path": "results/particle30-2/Toio/Toio-1499750.onnx",
+                "reward": -0.0019981711520813406,
+                "creation_time": 1677985792.487842,
+                "auxillary_file_paths": [
+                    "results/particle30-2/Toio/Toio-1499750.pt"
+                ]
+            },
+            {
+                "steps": 1999750,
+                "file_path": "results/particle30-2/Toio/Toio-1999750.onnx",
+                "reward": -0.0013364036713028327,
+                "creation_time": 1677989568.270738,
+                "auxillary_file_paths": [
+                    "results/particle30-2/Toio/Toio-1999750.pt"
+                ]
+            },
+            {
+                "steps": 2000250,
+                "file_path": "results/particle30-2/Toio/Toio-2000250.onnx",
+                "reward": -0.0008999158162623644,
+                "creation_time": 1677989570.5519533,
+                "auxillary_file_paths": [
+                    "results/particle30-2/Toio/Toio-2000250.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000250,
+            "file_path": "results/particle30-2/Toio.onnx",
+            "reward": -0.0008999158162623644,
+            "creation_time": 1677989570.5519533,
+            "auxillary_file_paths": [
+                "results/particle30-2/Toio/Toio-2000250.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}
