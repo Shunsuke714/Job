@@ -45,6 +45,12 @@ public class Recordmonolinear : MonoBehaviour
             Debug.Log(nxtRng);
         }
 
+        /*if (_source.isPlaying && elapsedDspTime > 7+count*5)
+        {
+            Debug.Log(AudioSettings.dspTime);
+            _source.Stop();
+        }*/
+
         double NextRingTime()
         {
             var interval = 10d;
@@ -63,8 +69,12 @@ public class Recordmonolinear : MonoBehaviour
     {
         if (elapsedDspTime > 18d + count * 10)
         {
-            this.transform.position = new Vector3(0, height, 0.98f-count*0.02f);
-            count++;
+            this.transform.position = new Vector3(0, height,0.02f+count*0.02f);
+            count++;   
+        }
+        if (count == 78)
+        {
+            UnityEditor.EditorApplication.isPlaying = false;
         }
     }
 
