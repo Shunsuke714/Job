@@ -74,7 +74,7 @@ public class Recordmonolinear : MonoBehaviour
         }
         if (count == 78)
         {
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
     }
 

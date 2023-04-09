@@ -217,8 +217,8 @@ public class GridMultiAgent : Agent
             //float posx2 = Random.Range(0, 0.5f);
             while (true)
             {
-                float posx1 = Random.Range(-1f, 1f);
-                float posx2 = Random.Range(-1f, 1f);
+                float posx1 = Random.Range(-0.5f, 0.5f);
+                float posx2 = Random.Range(-0.5f, 0.5f);
                 if (Mathf.Abs(posx1 - posx2) > 0.01f)
                 {
                     if (posx1 > posx2)
@@ -235,6 +235,10 @@ public class GridMultiAgent : Agent
             }
             //float posx1 = -0.28f;
             //float posx2 = 0.28f;
+            //float posx1 = 0.5f;
+            //float posx2 = 0.55f;
+            //this.cube1.transform.position = new Vector3(posx1, 0, -0.5f);
+            //this.cube2.transform.position = new Vector3(posx2, 0, -0.5f);
             this.cube1.transform.rotation = Quaternion.Euler(0, 90f, 0);
             this.cube2.transform.rotation = Quaternion.Euler(0, -90f, 0);
         }

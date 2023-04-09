@@ -1,0 +1,65 @@
+{
+    "Toio": {
+        "checkpoints": [
+            {
+                "steps": 499750,
+                "file_path": "results\\particlerandom[-1,1]-1\\Toio\\Toio-499750.onnx",
+                "reward": -0.006302111782133579,
+                "creation_time": 1680579198.2801995,
+                "auxillary_file_paths": [
+                    "results\\particlerandom[-1,1]-1\\Toio\\Toio-499750.pt"
+                ]
+            },
+            {
+                "steps": 999750,
+                "file_path": "results\\particlerandom[-1,1]-1\\Toio\\Toio-999750.onnx",
+                "reward": -0.0026240769996851063,
+                "creation_time": 1680582550.6946929,
+                "auxillary_file_paths": [
+                    "results\\particlerandom[-1,1]-1\\Toio\\Toio-999750.pt"
+                ]
+            },
+            {
+                "steps": 1499750,
+                "file_path": "results\\particlerandom[-1,1]-1\\Toio\\Toio-1499750.onnx",
+                "reward": -0.004494492756202817,
+                "creation_time": 1680585892.6391413,
+                "auxillary_file_paths": [
+                    "results\\particlerandom[-1,1]-1\\Toio\\Toio-1499750.pt"
+                ]
+            },
+            {
+                "steps": 1999750,
+                "file_path": "results\\particlerandom[-1,1]-1\\Toio\\Toio-1999750.onnx",
+                "reward": -0.0016444992257415184,
+                "creation_time": 1680589249.6955354,
+                "auxillary_file_paths": [
+                    "results\\particlerandom[-1,1]-1\\Toio\\Toio-1999750.pt"
+                ]
+            },
+            {
+                "steps": 2000250,
+                "file_path": "results\\particlerandom[-1,1]-1\\Toio\\Toio-2000250.onnx",
+                "reward": -0.0018038696208451358,
+                "creation_time": 1680589251.4352896,
+                "auxillary_file_paths": [
+                    "results\\particlerandom[-1,1]-1\\Toio\\Toio-2000250.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000250,
+            "file_path": "results\\particlerandom[-1,1]-1\\Toio.onnx",
+            "reward": -0.0018038696208451358,
+            "creation_time": 1680589251.4352896,
+            "auxillary_file_paths": [
+                "results\\particlerandom[-1,1]-1\\Toio\\Toio-2000250.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
