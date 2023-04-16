@@ -34,7 +34,7 @@ MonoBehaviour:
   bakingDuration: 1
   bakingAmbisonicOrder: 1
   bakingCPUCoresPercentage: 50
-  bakingIrradianceMinDistance: 1
+  bakingIrradianceMinDistance: 0.1
   bakingVisibilitySamples: 4
   bakingVisibilityRadius: 1
   bakingVisibilityThreshold: 0.1

@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 51456035}
   - component: {fileID: 51456034}
   - component: {fileID: 51456039}
+  - component: {fileID: 51456040}
   m_Layer: 0
   m_Name: Sound
   m_TagString: Untagged
@@ -153,7 +154,7 @@ AudioSource:
   m_GameObject: {fileID: 51456033}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 63d95cce5bf9ae945b5406f944416057, type: 2}
   m_audioClip: {fileID: 8300000, guid: a58af7198bd6e10438c6515192d4ac19, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -333,21 +334,21 @@ MonoBehaviour:
   directBinaural: 0
   interpolation: 0
   distanceAttenuation: 1
-  distanceAttenuationInput: 0
+  distanceAttenuationInput: 1
   distanceAttenuationValue: 1
-  airAbsorption: 0
+  airAbsorption: 1
   airAbsorptionInput: 0
   airAbsorptionLow: 1
   airAbsorptionMid: 1
   airAbsorptionHigh: 1
-  directivity: 0
+  directivity: 1
   directivityInput: 0
   dipoleWeight: 0
   dipolePower: 0
   directivityValue: 1
   occlusion: 1
   occlusionInput: 0
-  occlusionType: 1
+  occlusionType: 0
   occlusionRadius: 0.03
   occlusionSamples: 16
   occlusionValue: 1
@@ -359,9 +360,9 @@ MonoBehaviour:
   transmissionHigh: 1
   directMixLevel: 1
   reflections: 1
-  reflectionsType: 0
+  reflectionsType: 1
   useDistanceCurveForReflections: 0
-  currentBakedSource: {fileID: 0}
+  currentBakedSource: {fileID: 51456040}
   reverbTimeLow: 0
   reverbTimeMid: 0
   reverbTimeHigh: 0
@@ -370,9 +371,9 @@ MonoBehaviour:
   hybridReverbEQHigh: 1
   hybridReverbDelay: 0
   applyHRTFToReflections: 0
-  reflectionsMixLevel: 0
+  reflectionsMixLevel: 0.1
   pathing: 0
-  pathingProbeBatch: {fileID: 0}
+  pathingProbeBatch: {fileID: 1209606047}
   pathValidation: 1
   findAlternatePaths: 1
   pathingEQ:
@@ -398,6 +399,38 @@ MonoBehaviour:
   - 0
   applyHRTFToPathing: 0
   pathingMixLevel: 1
+--- !u!114 &51456040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51456033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea378497d2d9e847898c57b9eb3fb94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  influenceRadius: 5
+  useAllProbeBatches: 1
+  probeBatches: []
+  mTotalDataSize: 312660
+  mProbeDataSizes: 44f4000044f4000044f4000044f4000044f40000
+  mIdentifier:
+    type: 0
+    variation: 1
+    endpointInfluence:
+      center:
+        x: 0
+        y: 0.3
+        z: -0
+      radius: 5
+  mProbeBatchesUsed:
+  - {fileID: 513247077}
+  - {fileID: 583417716}
+  - {fileID: 689152065}
+  - {fileID: 1186405640}
+  - {fileID: 1209606047}
 --- !u!1 &151411900
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,7 +445,7 @@ GameObject:
   - component: {fileID: 151411902}
   - component: {fileID: 151411901}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +558,7 @@ GameObject:
   - component: {fileID: 314390570}
   - component: {fileID: 314390574}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,6 +751,420 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &513247076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513247078}
+  - component: {fileID: 513247077}
+  m_Layer: 0
+  m_Name: probe (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &513247077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513247076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286962cac82a4fa4e9ec38ab663c9578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementStrategy: 1
+  horizontalSpacing: 0.1
+  heightAboveFloor: 0.3
+  asset: {fileID: 11400000, guid: d594e79a618cf46488e55f32bf39ecfe, type: 2}
+  probeDataSize: 125860
+  mProbeSpheres:
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.28
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.1800001
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.08
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.98
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.88000005
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.78000003
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.68
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.58000004
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.48000005
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.38
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.28
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.18000004
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.07999998
+    radius: 0.1
+  mBakedDataLayerInfo:
+  - gameObject: {fileID: 51456033}
+    identifier:
+      type: 0
+      variation: 1
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0.3
+          z: -0
+        radius: 5
+    dataSize: 62532
+  - gameObject: {fileID: 1533845483}
+    identifier:
+      type: 0
+      variation: 0
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0
+          z: 0
+        radius: 0
+    dataSize: 62532
+--- !u!4 &513247078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513247076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.68}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &583417715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 583417717}
+  - component: {fileID: 583417716}
+  m_Layer: 0
+  m_Name: probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &583417716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583417715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286962cac82a4fa4e9ec38ab663c9578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementStrategy: 1
+  horizontalSpacing: 0.1
+  heightAboveFloor: 0.3
+  asset: {fileID: 11400000, guid: d594e79a618cf46488e55f32bf39ecfe, type: 2}
+  probeDataSize: 125860
+  mProbeSpheres:
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.22
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.1200001
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.02
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.92
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.82000005
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.72
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.62
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.52000004
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.42000005
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.32
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.22
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.120000035
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.01999998
+    radius: 0.1
+  mBakedDataLayerInfo:
+  - gameObject: {fileID: 51456033}
+    identifier:
+      type: 0
+      variation: 1
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0.3
+          z: -0
+        radius: 5
+    dataSize: 62532
+  - gameObject: {fileID: 1533845483}
+    identifier:
+      type: 0
+      variation: 0
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0
+          z: 0
+        radius: 0
+    dataSize: 62532
+--- !u!4 &583417717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583417715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.62}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &689152064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689152066}
+  - component: {fileID: 689152065}
+  m_Layer: 0
+  m_Name: probe (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &689152065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689152064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286962cac82a4fa4e9ec38ab663c9578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementStrategy: 1
+  horizontalSpacing: 0.1
+  heightAboveFloor: 0.3
+  asset: {fileID: 11400000, guid: d594e79a618cf46488e55f32bf39ecfe, type: 2}
+  probeDataSize: 125860
+  mProbeSpheres:
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.26
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.1600001
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.0600001
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.96000004
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.8600001
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.76000005
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.66
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.56000006
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.46000007
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.36
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.26000002
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.16000006
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.060000002
+    radius: 0.1
+  mBakedDataLayerInfo:
+  - gameObject: {fileID: 51456033}
+    identifier:
+      type: 0
+      variation: 1
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0.3
+          z: -0
+        radius: 5
+    dataSize: 62532
+  - gameObject: {fileID: 1533845483}
+    identifier:
+      type: 0
+      variation: 0
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0
+          z: 0
+        radius: 0
+    dataSize: 62532
+--- !u!4 &689152066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689152064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.66}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &829580239
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +1179,7 @@ GameObject:
   - component: {fileID: 829580241}
   - component: {fileID: 829580240}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -845,7 +1292,7 @@ GameObject:
   - component: {fileID: 972726296}
   - component: {fileID: 972726300}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -945,6 +1392,282 @@ MonoBehaviour:
   material: {fileID: 11400000, guid: a086f686223eed942816c70be67841b0, type: 2}
   exportAllChildren: 0
   terrainSimplificationLevel: 0
+--- !u!1 &1186405639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1186405641}
+  - component: {fileID: 1186405640}
+  m_Layer: 0
+  m_Name: probe (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1186405640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186405639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286962cac82a4fa4e9ec38ab663c9578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementStrategy: 1
+  horizontalSpacing: 0.1
+  heightAboveFloor: 0.3
+  asset: {fileID: 11400000, guid: d594e79a618cf46488e55f32bf39ecfe, type: 2}
+  probeDataSize: 125860
+  mProbeSpheres:
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.24
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.1400001
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.04
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.94
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.84000003
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.74
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.64
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.54
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.44000003
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.33999997
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.23999998
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.14000002
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.03999996
+    radius: 0.1
+  mBakedDataLayerInfo:
+  - gameObject: {fileID: 51456033}
+    identifier:
+      type: 0
+      variation: 1
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0.3
+          z: -0
+        radius: 5
+    dataSize: 62532
+  - gameObject: {fileID: 1533845483}
+    identifier:
+      type: 0
+      variation: 0
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0
+          z: 0
+        radius: 0
+    dataSize: 62532
+--- !u!4 &1186405641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186405639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.64}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1209606046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1209606048}
+  - component: {fileID: 1209606047}
+  m_Layer: 0
+  m_Name: probe (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1209606047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209606046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286962cac82a4fa4e9ec38ab663c9578, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementStrategy: 1
+  horizontalSpacing: 0.1
+  heightAboveFloor: 0.3
+  asset: {fileID: 11400000, guid: d594e79a618cf46488e55f32bf39ecfe, type: 2}
+  probeDataSize: 125860
+  mProbeSpheres:
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.3
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.2
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1.1
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -1
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.90000004
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.8
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.7
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.6
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.5
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.39999998
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.29999998
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.30000004
+      z: -0.20000002
+    radius: 0.1
+  - center:
+      x: 0
+      y: 0.3
+      z: -0.099999964
+    radius: 0.1
+  mBakedDataLayerInfo:
+  - gameObject: {fileID: 51456033}
+    identifier:
+      type: 0
+      variation: 1
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0.3
+          z: -0
+        radius: 5
+    dataSize: 62532
+  - gameObject: {fileID: 1533845483}
+    identifier:
+      type: 0
+      variation: 0
+      endpointInfluence:
+        center:
+          x: 0
+          y: 0
+          z: 0
+        radius: 0
+    dataSize: 62532
+--- !u!4 &1209606048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209606046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.7}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1266218327
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,7 +1682,7 @@ GameObject:
   - component: {fileID: 1266218329}
   - component: {fileID: 1266218328}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1072,6 +1795,7 @@ GameObject:
   - component: {fileID: 1533845486}
   - component: {fileID: 1533845485}
   - component: {fileID: 1533845484}
+  - component: {fileID: 1533845490}
   m_Layer: 0
   m_Name: Listener
   m_TagString: Untagged
@@ -1179,6 +1903,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1533845490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533845483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fd9ebf1401392e4bbd47fea32f47642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentBakedListener: {fileID: 0}
+  applyReverb: 1
+  reverbType: 1
+  useAllProbeBatches: 1
+  probeBatches: []
+  mTotalDataSize: 312660
+  mProbeDataSizes: 44f4000044f4000044f4000044f4000044f40000
+  mIdentifier:
+    type: 0
+    variation: 0
+    endpointInfluence:
+      center:
+        x: 0
+        y: 0
+        z: 0
+      radius: 0
+  mProbeBatchesUsed:
+  - {fileID: 513247077}
+  - {fileID: 583417716}
+  - {fileID: 689152065}
+  - {fileID: 1186405640}
+  - {fileID: 1209606047}
 --- !u!1 &1665133033
 GameObject:
   m_ObjectHideFlags: 0
