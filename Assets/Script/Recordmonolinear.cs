@@ -60,7 +60,7 @@ public class Recordmonolinear : MonoBehaviour
             return startDspTime + (num + 1d) * interval;
         }
 
-        Move(elapsedDspTime);
+        //Move(elapsedDspTime);
 
         
     }   

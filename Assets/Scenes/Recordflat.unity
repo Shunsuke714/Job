@@ -372,8 +372,8 @@ MonoBehaviour:
   hybridReverbDelay: 0
   applyHRTFToReflections: 0
   reflectionsMixLevel: 0.1
-  pathing: 0
-  pathingProbeBatch: {fileID: 1209606047}
+  pathing: 1
+  pathingProbeBatch: {fileID: 583417716}
   pathValidation: 1
   findAlternatePaths: 1
   pathingEQ:

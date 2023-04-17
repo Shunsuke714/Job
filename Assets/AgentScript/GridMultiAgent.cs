@@ -221,13 +221,13 @@ public class GridMultiAgent : Agent
                 float posx2 = Random.Range(-0.5f, 0.5f);
                 if (Mathf.Abs(posx1 - posx2) > 0.01f)
                 {
-                    if (posx1 > posx2)
+                    /*if (posx1 > posx2)
                     {
                         float tmp;
                         tmp = posx2;
                         posx2 = posx1;
                         posx1 = tmp;
-                    }
+                    }*/
                     this.cube1.transform.position = new Vector3(posx1, 0, -0.5f);
                     this.cube2.transform.position = new Vector3(posx2, 0, -0.5f);
                     break;
