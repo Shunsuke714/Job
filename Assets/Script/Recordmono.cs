@@ -12,7 +12,7 @@ public class Recordmono : MonoBehaviour
     double startDspTime;
     double buffer = 5 / 60d;
 
-    private int outputRate = 44100;
+    private int outputRate;
     private string fileName = "Data/Audio_data/output.wav";
     private int headerSize = 44;
 
@@ -49,28 +49,33 @@ public class Recordmono : MonoBehaviour
             var elapsedDspTime = AudioSettings.dspTime - startDspTime;
             var num = System.Math.Floor(elapsedDspTime / interval);
 
-            return startDspTime + (num + 1d) * interval;
+            double add = 0;
+            if (count==1 || count==4) add = 0.000151719;
+            return startDspTime + (num + 1d) * interval + add;
         }
+        
         //Listener‚ÌˆÚ“®
         if (count == 0 && elapsedDspTime > 18d)
         {
-            this.transform.position = new Vector3(-dist, height, dist);
+            this.transform.position = new Vector3(-dist/2, height, dist/2);
             count++;
         }
         if (count == 1 && elapsedDspTime > 28d)
         {
-            this.transform.position = new Vector3(dist, height, dist);
+            this.transform.position = new Vector3(dist/2, height, dist/2);
             count++;
         }
         if (count == 2 && elapsedDspTime > 38d)
         {
-            this.transform.position = new Vector3(-dist, height, -dist);
+            this.transform.position = new Vector3(dist/2, height, -dist/2);
             count++;
         }
         if (count == 3 && elapsedDspTime > 48d)
         {
-            this.transform.position = new Vector3(dist, height, -dist);
+            this.transform.position = new Vector3(-dist/2, height, -dist/2);
+            count++;
         }
+        
 
     }
 
