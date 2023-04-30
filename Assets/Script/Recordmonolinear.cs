@@ -7,6 +7,7 @@ public class Recordmonolinear : MonoBehaviour
 {
 
     [SerializeField] AudioSource _source;
+    [SerializeField] Transform _sourcetransform;
     [SerializeField] float height;
     // Start is called before the first frame update
 
@@ -21,6 +22,7 @@ public class Recordmonolinear : MonoBehaviour
     private bool recOutput;
     private FileStream fileStream;
     int count = 0;
+    const double c = 340;
 
     void Start()
     {
@@ -57,10 +59,13 @@ public class Recordmonolinear : MonoBehaviour
             var elapsedDspTime = AudioSettings.dspTime - startDspTime;
             var num = System.Math.Floor(elapsedDspTime / interval);
 
-            return startDspTime + (num + 1d) * interval;
+            float dis = Vector3.Distance(_sourcetransform.position, this.transform.position);
+            double delay = dis / c;
+
+            return startDspTime + (num + 1d) * interval + delay;
         }
 
-        //Move(elapsedDspTime);
+        Move(elapsedDspTime);
 
         
     }   
@@ -74,7 +79,7 @@ public class Recordmonolinear : MonoBehaviour
         }
         if (count == 78)
         {
-            //UnityEditor.EditorApplication.isPlaying = false;
+            UnityEditor.EditorApplication.isPlaying = false;
         }
     }
 
