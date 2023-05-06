@@ -36,7 +36,7 @@ public class MicArrayTools : MonoBehaviour
         TextAsset csvFile; // CSVファイル
         List<string[]> csvData = new List<string[]>(); // CSVの中身を入れるリスト;
         float[][] wavData;
-        csvFile = Resources.Load("90") as TextAsset; // Resouces下のCSV読み込み
+        csvFile = Resources.Load("data/60") as TextAsset; // Resouces下のCSV読み込み
 
         StringReader reader = new StringReader(csvFile.text);
 
@@ -144,6 +144,7 @@ public class MicArrayTools : MonoBehaviour
         */
         
         
+        
 
         int advancePosition = 256;
         int windowSize = 512;
@@ -180,6 +181,7 @@ public class MicArrayTools : MonoBehaviour
         
         
         
+        
         int numStep =10;
         var corrArray=new MathNet.Numerics.LinearAlgebra.Matrix<MathNet.Numerics.Complex32>[windowSize / 2 + 1];
         for (int freq = 0; freq < windowSize / 2 + 1; freq++)
@@ -207,7 +209,7 @@ public class MicArrayTools : MonoBehaviour
             }
 
         }
-        int numSource = 2;
+        int numSource = 1;
         int numDirection = stearingVecArray.Length;//-pi ～　pi  
         float[] musicPowerList = new float[numDirection];//各方向を表すインデックス番目にMUSIC Powerが計算される
 
@@ -218,12 +220,20 @@ public class MicArrayTools : MonoBehaviour
             {
                 var evd = corrArray[freq].Evd(MathNet.Numerics.LinearAlgebra.Symmetricity.Symmetric);
                 var A = evd.EigenValues;
-                //Debug.Log(string.Join(",", A));
                 StearingVector aVec = stearingVecArray[dir][freq];
                 double denom = 0;
+                
+                /*
                 for (int src=0;src< numSource; src++)
                 {
                     StearingVector e = evd.EigenVectors.Column(numChannel-src-1);
+                    denom += aVec.Conjugate().DotProduct(e).Norm();
+                }
+                */
+                
+                for(int src = 0; src < numChannel-numSource; src++)
+                {
+                    StearingVector e = evd.EigenVectors.Column(src);
                     denom += aVec.Conjugate().DotProduct(e).Norm();
                 }
                 musicPower += (float)(aVec.L2Norm() / denom);

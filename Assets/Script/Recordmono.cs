@@ -6,6 +6,7 @@ using System.IO;
 public class Recordmono : MonoBehaviour
 {
     [SerializeField] AudioSource _source;
+    [SerializeField] Transform _sourcetransform;
     [SerializeField] float dist;
     [SerializeField] float height;
 
@@ -20,7 +21,8 @@ public class Recordmono : MonoBehaviour
     private bool recOutput;
     private FileStream fileStream;
     int count = 0;
-    
+    const double c = 340;
+
     void Start()
     {
         StartWriting(fileName);
@@ -49,31 +51,36 @@ public class Recordmono : MonoBehaviour
             var elapsedDspTime = AudioSettings.dspTime - startDspTime;
             var num = System.Math.Floor(elapsedDspTime / interval);
 
-            double add = 0;
-            if (count==1 || count==4) add = 0.000151719;
-            return startDspTime + (num + 1d) * interval + add;
+            float dis = Vector3.Distance(_sourcetransform.position, this.transform.position);
+            double delay = dis / c;
+
+            return startDspTime + (num + 1d) * interval + delay;
         }
         
         //Listener‚ÌˆÚ“®
         if (count == 0 && elapsedDspTime > 18d)
         {
-            this.transform.position = new Vector3(-dist/2, height, dist/2);
+            this.transform.position = new Vector3(dist/2, height, dist/2);
             count++;
         }
         if (count == 1 && elapsedDspTime > 28d)
         {
-            this.transform.position = new Vector3(dist/2, height, dist/2);
+            this.transform.position = new Vector3(dist/2, height, -dist/2);
             count++;
         }
         if (count == 2 && elapsedDspTime > 38d)
         {
-            this.transform.position = new Vector3(dist/2, height, -dist/2);
+            this.transform.position = new Vector3(-dist/2, height, -dist/2);
             count++;
         }
         if (count == 3 && elapsedDspTime > 48d)
         {
-            this.transform.position = new Vector3(-dist/2, height, -dist/2);
+            this.transform.position = new Vector3(-dist/2, height, dist/2);
             count++;
+        }
+        if(elapsedDspTime > 60d)
+        {
+            UnityEditor.EditorApplication.isPlaying = false;
         }
         
 
