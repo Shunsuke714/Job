@@ -36,7 +36,7 @@ public class MicArrayTools : MonoBehaviour
         TextAsset csvFile; // CSVファイル
         List<string[]> csvData = new List<string[]>(); // CSVの中身を入れるリスト;
         float[][] wavData;
-        csvFile = Resources.Load("data/60") as TextAsset; // Resouces下のCSV読み込み
+        csvFile = Resources.Load("data/wave") as TextAsset; // Resouces下のCSV読み込み
 
         StringReader reader = new StringReader(csvFile.text);
 
