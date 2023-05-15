@@ -13,6 +13,7 @@ using StearingVector = MathNet.Numerics.LinearAlgebra.Vector<MathNet.Numerics.Co
 
 public class MicArrayTools : MonoBehaviour
 {
+    [SerializeField] string Filename;
     // wavリストのstartPositionからwindowSize分取り出してフーリエ変換を実行
     public Complex32[] computeFFT(float[] wav, int startPosition, int windowSize)
     {
@@ -36,7 +37,7 @@ public class MicArrayTools : MonoBehaviour
         TextAsset csvFile; // CSVファイル
         List<string[]> csvData = new List<string[]>(); // CSVの中身を入れるリスト;
         float[][] wavData;
-        csvFile = Resources.Load("data/wave") as TextAsset; // Resouces下のCSV読み込み
+        csvFile = Resources.Load("data/"+Filename) as TextAsset; // Resouces下のCSV読み込み
 
         StringReader reader = new StringReader(csvFile.text);
 
@@ -106,6 +107,7 @@ public class MicArrayTools : MonoBehaviour
         }
         return stearingVecArray;
     }
+
 
     void Start()
     {
@@ -271,7 +273,7 @@ public class MicArrayTools : MonoBehaviour
 
     void WriteCsv(float [] musicPowerList, int numDirection)
     {
-        StreamWriter file = new StreamWriter(@"C:\Users\shunsuke\UnityProjects\My Project\Data\Direction_data\power.csv", false, Encoding.GetEncoding("Shift_JIS"));
+        StreamWriter file = new StreamWriter(@"C:\Users\shunsuke\UnityProjects\My Project\Data\Direction_data\"+Filename+".csv", false, Encoding.GetEncoding("Shift_JIS"));
         for(int i = 0; i < numDirection; i++)
         {
             var line = "";

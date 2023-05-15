@@ -7,9 +7,10 @@ using System.IO;
 public class FastRecord : MonoBehaviour
 {
     [SerializeField] AudioSource _source;
-    [SerializeField] Transform _sourcetransform;
-    [SerializeField] float dist;
+    [SerializeField] GameObject _sourceobj;
+    [SerializeField] float radius;
     [SerializeField] float height;
+    [SerializeField] float degree;
 
     double startDspTime;
     double buffer = 5 / 60d;
@@ -23,6 +24,7 @@ public class FastRecord : MonoBehaviour
     private FileStream fileStream;
     int count = 0;
     const double c = 340;
+    float len;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,11 @@ public class FastRecord : MonoBehaviour
         Debug.Log(AudioSettings.speakerMode);
         Debug.Log(outputRate);
         Debug.Log(startDspTime);
+        len = radius * Mathf.Sqrt(2);
+        float radian = degree / 360 * 2 * Mathf.PI;
+        float x = Mathf.Cos(radian) / Mathf.Sqrt(2) + Mathf.Sin(radian) / Mathf.Sqrt(2); 
+        float z = Mathf.Cos(radian) / Mathf.Sqrt(2) - Mathf.Sin(radian) / Mathf.Sqrt(2);
+        _sourceobj.transform.position = new Vector3(x, height, z);
     }
 
     // Update is called once per frame
@@ -53,7 +60,7 @@ public class FastRecord : MonoBehaviour
             var elapsedDspTime = AudioSettings.dspTime - startDspTime;
             var num = System.Math.Floor(elapsedDspTime / interval);
 
-            float dis = Vector3.Distance(_sourcetransform.position, this.transform.position);
+            float dis = Vector3.Distance(_sourceobj.transform.position, this.transform.position);
             double delay = dis / c;
 
             return startDspTime + (num + 1d) * interval + delay;
@@ -62,25 +69,25 @@ public class FastRecord : MonoBehaviour
         //Listener‚ÌˆÚ“®
         if (count == 0 && elapsedDspTime > 1.8d)
         {
-            this.transform.position = new Vector3(dist / 2, height, dist / 2);
+            this.transform.position = new Vector3(len / 2, height, len / 2);
             count++;
         }
         if (count == 1 && elapsedDspTime > 2.8d)
         {
-            this.transform.position = new Vector3(dist / 2, height, -dist / 2);
+            this.transform.position = new Vector3(len / 2, height, -len / 2);
             count++;
         }
         if (count == 2 && elapsedDspTime > 3.8d)
         {
-            this.transform.position = new Vector3(-dist / 2, height, -dist / 2);
+            this.transform.position = new Vector3(-len / 2, height, -len / 2);
             count++;
         }
         if (count == 3 && elapsedDspTime > 4.8d)
         {
-            this.transform.position = new Vector3(-dist / 2, height, dist / 2);
+            this.transform.position = new Vector3(-len / 2, height, len / 2);
             count++;
         }
-        if (elapsedDspTime > 6d)
+        if (elapsedDspTime > 6.5d)
         {
             UnityEditor.EditorApplication.isPlaying = false;
         }

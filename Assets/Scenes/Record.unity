@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 1096034214}
   - component: {fileID: 1096034213}
   - component: {fileID: 1096034219}
-  - component: {fileID: 1096034221}
+  - component: {fileID: 1096034220}
   m_Layer: 0
   m_Name: Listener
   m_TagString: Untagged
@@ -932,7 +932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096034211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0.02}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -968,7 +968,7 @@ MonoBehaviour:
         z: 0
       radius: 0
   mProbeBatchesUsed: []
---- !u!114 &1096034221
+--- !u!114 &1096034220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -981,9 +981,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 387576757}
-  _sourcetransform: {fileID: 387576761}
-  dist: 0.0516188
+  _sourceobj: {fileID: 387576755}
+  radius: 0.0365
   height: 0.3
+  degree: -135
 --- !u!1 &1122979213
 GameObject:
   m_ObjectHideFlags: 0
