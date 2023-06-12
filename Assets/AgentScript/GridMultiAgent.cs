@@ -18,6 +18,7 @@ public class GridMultiAgent : Agent
     CubeManager cm;
     GameObject cube1;
     GameObject cube2;
+    public GameObject MicArray;
     Stage stage;
     Transform targetPole;
     Cube c;
@@ -290,6 +291,7 @@ public class GridMultiAgent : Agent
     
     public override void CollectObservations(VectorSensor sensor)
     {
+
         //Šp“x‚ðŽæ“¾
         Vector3 diff1 = targetPole.position - this.cube1.transform.position;
         angle1 = Mathf.Atan2(diff1.z, diff1.x);

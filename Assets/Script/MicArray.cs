@@ -91,7 +91,6 @@ public class MicArray : MonoBehaviour
 
     float[][] LoadWaveData()
     {
-        
         float[][] wavData;
         int numChannel = 4;
         int size = advancePosition * (numStep - 1) + windowSize;
@@ -108,7 +107,7 @@ public class MicArray : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         recOutput = true;
         startDspTime = AudioSettings.dspTime;
@@ -174,14 +173,13 @@ public class MicArray : MonoBehaviour
             MUSIC();
             //RecordData.Clear();
             //WriteCsv();
-
         }
 
 
     }
 
 
-    void MUSIC()
+    public void MUSIC()
     {
         float[][] wavData = LoadWaveData();
         int numChannel = wavData.Length;
@@ -240,6 +238,7 @@ public class MicArray : MonoBehaviour
         }
         int maxDir = Array.IndexOf(musicPowerList, musicPowerList.Max());
         Debug.Log("Max Direction:" + (maxDir * 20 - 180).ToString());
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 
 
