@@ -80,7 +80,7 @@ public class Recordmono : MonoBehaviour
         }
         if(elapsedDspTime > 60d)
         {
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
         
 

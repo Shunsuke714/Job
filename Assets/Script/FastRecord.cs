@@ -89,7 +89,7 @@ public class FastRecord : MonoBehaviour
         }
         if (elapsedDspTime > 6.5d)
         {
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
 
 

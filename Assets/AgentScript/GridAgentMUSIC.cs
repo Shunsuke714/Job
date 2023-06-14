@@ -38,6 +38,8 @@ public class GridAgentMUSIC : Agent
     public float plus = 1f;
     int count = 0;
     int numStep = 0;
+    [SerializeField]
+    int maxStep;
 
     [SerializeField] AudioSource _source;
     [SerializeField] GameObject _sourceobj;
@@ -402,24 +404,23 @@ public class GridAgentMUSIC : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-
-
+        
         //直線のパラメータを取得
         float posx1 = this.cube1.transform.position.x;
         float posz1 = this.cube1.transform.position.z;
-        float a1 = Mathf.Tan(micArray.angle1);
+        float a1 = Mathf.Tan(Mathf.Deg2Rad*micArray.angle1);
         float posx2 = this.cube2.transform.position.x;
         float posz2 = this.cube2.transform.position.z;
-        float a2 = Mathf.Tan(micArray.angle2);
+        float a2 = Mathf.Tan(Mathf.Deg2Rad*micArray.angle2);
 
 
         //入力
-        sensor.AddObservation((micArray.angle1) / (Mathf.PI));
+        sensor.AddObservation((Mathf.Deg2Rad*micArray.angle1) / (Mathf.PI));
         sensor.AddObservation(posx1 / 1.44f);
-        sensor.AddObservation((micArray.angle2) / (Mathf.PI));
+        sensor.AddObservation((Mathf.Deg2Rad*micArray.angle2) / (Mathf.PI));
         sensor.AddObservation(posx2 / 1.44f);
 
-        Debug.Log((micArray.angle1, micArray.angle2));
+        Debug.Log((Mathf.Deg2Rad*micArray.angle1, Mathf.Deg2Rad*micArray.angle2));
         micArray.angle1 = -1;
         micArray.angle2 = -1;
         //グリッドを埋めていく
@@ -450,8 +451,8 @@ public class GridAgentMUSIC : Agent
         action_list[1] = action2;
         for (int i = 0; i < cm.syncHandles.Count(); i++)
         {
-            if (action_list[i] == 1) cm.syncHandles[i].Move(40, 0, 100, false);
-            if (action_list[i] == 2) cm.syncHandles[i].Move(-40, 0, 100, false);
+            if (action_list[i] == 1) cm.syncHandles[i].Move(100, 0, 100, false);
+            if (action_list[i] == 2) cm.syncHandles[i].Move(-100, 0, 100, false);
         }
 
     }
@@ -520,7 +521,7 @@ public class GridAgentMUSIC : Agent
             numStep++;
         }
         
-        if (numStep == 200)
+        if (numStep == maxStep)
         {
             TerminateEpisode();
         }

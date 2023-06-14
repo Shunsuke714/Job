@@ -238,7 +238,7 @@ public class MicArray : MonoBehaviour
         }
         int maxDir = Array.IndexOf(musicPowerList, musicPowerList.Max());
         Debug.Log("Max Direction:" + (maxDir * 20 - 180).ToString());
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
     }
 
 
